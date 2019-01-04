@@ -76,12 +76,12 @@ Nolans Parse
 # print(predicted , " total possibilities in sense strand given random DNA sequences")
 
 
+col_params = ['pause_status', 'position', 'ref_base', 'pause_seq', 'pause _G', 'pause_C',
+              'pause_context', 'context_G', 'context_C', 'gene', 'gene_start', 'gene_end',
+              'start_dist_abs', 'start_dist_rel', 'end_dist_abs', 'end_dist_rel',
+              'trans_base']  # pause_seq is last 17bp, trans_base is pos+1, pause_context is 109 before and after
 
-
-
-
-
-col_params = [] # CODE: fill with param names
+# print(len(col_params))
 
 df = pd.DataFrame(columns=col_params)
 
@@ -92,23 +92,110 @@ for ds in datas:
     arr_ = np.array(df_['Position'])
     arr_ = np.reshape(arr_, (-1, arr_.shape[0]))
     pos_arr = np.append(pos_arr, arr_)
+    # print(len(arr_[0]))
+    # print(len(arr_), arr_[-1])
+
+# print("pos arr", len(pos_arr))
+print(len(pos_arr))
+
+print(len(mutgen))
+
+
 
 
 def data_parse_loader(genome, positions, dataf):
+    print('GENOME: ', len(genome))
+    # print(np.isnan(positions[758]))
+
     for pos_i in range(len(positions)):
-        pos = positions[pos_i]
-        pos_res = []
+        if not np.isnan(positions[pos_i]) and (positions[pos_i] + 109) <= 4641652:
 
-        # CODE: get all param valus for particular position
+            # if type(positions[pos_i]) != int and type(positions[pos_i]) != np.float64:
+            #     print(pos_i, type(positions[pos_i]))
 
-        dataf.loc[pos_i] = pos_res
+            # print(positions[pos_i], pos_i)
+            pos = int(positions[pos_i])
+            pos_res = []
+
+            if pos_i<759:
+                pos_res.append('HC True')
+            elif pos_i<14505:
+                pos_res.append('LC True')
+            else:
+                pos_res.append('False')
+
+            pos_res.append(pos)
+            # print(pos)
+            pos_res.append(genome[pos-1])
+            pos_res.append(genome[pos-17:pos-1])
+
+            pauseg = 0
+            pausec = 0
+
+            for i in range(17):
+                if genome[pos-17+i] == 'G':
+                    pauseg += 1
+                if genome[pos-17+i] == 'C':
+                    pausec += 1
+
+            pos_res.append(pauseg/17)
+            pos_res.append(pausec/17)
+            pos_res.append(genome[pos - 110:pos + 108])
+
+            contextg = 0
+            contextc = 0
+
+            for i in range(219):
+                if genome[pos-110+i] == 'G':
+                    contextg += 1
+                if genome[pos-110+i] == 'C':
+                    contextc += 1
+
+            pos_res.append(pauseg / 219)
+            pos_res.append(pausec / 219)
+
+            for feature in record.features:  # loop each position through whole genome
+                # In this particular case I'm interested in focusing on cds, but
+                # in others, I may be interested in other feature types?
+                if feature.type == "CDS":
+                    if feature.location.nofuzzy_start <= pos and feature.location.nofuzzy_end >= pos:
+                        pos_res.append(feature.qualifiers['gene'][0])
+                        pos_res.append(feature.location.nofuzzy_start)
+                        pos_res.append(feature.location.nofuzzy_end)
+                        pos_res.append(pos - feature.location.nofuzzy_start)
+                        pos_res.append((pos - feature.location.nofuzzy_start)/(feature.location.nofuzzy_end - feature.location.nofuzzy_start))
+                        pos_res.append(feature.location.nofuzzy_end - pos)
+                        pos_res.append((feature.location.nofuzzy_end - pos) / (feature.location.nofuzzy_end - feature.location.nofuzzy_start))
+                        break
+
+            if (len(pos_res)==9):
+                pos_res.append(np.nan)
+                pos_res.append(np.nan)
+                pos_res.append(np.nan)
+                pos_res.append(np.nan)
+                pos_res.append(np.nan)
+                pos_res.append(np.nan)
+                pos_res.append(np.nan)
+
+
+
+            pos_res.append(genome[pos+1])
+
+            # print(pos_res[16])
+
+            dataf.loc[pos_i] = pos_res
+            if pos_i % 100 == 0:
+                print("Step {}/{}".format(pos_i, 33938))
+
 
 
 data_parse_loader(mutgen, pos_arr, df)
-print(df.head(5))
+df.to_csv('genomic_data_set.csv')
+print(df.shape)
+print(df.head(10))
 
 
 
 
-
-
+# 4645179
+# 4641652
