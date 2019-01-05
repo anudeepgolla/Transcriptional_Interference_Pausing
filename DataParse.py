@@ -190,7 +190,7 @@ def data_parse_loader(genome, positions, dataf):
 
 
 data_parse_loader(mutgen, pos_arr, df)
-df.to_csv('genomic_data_set.csv')
+df.to_csv('data/genomic_data_set.csv')
 print(df.shape)
 print(df.head(10))
 
