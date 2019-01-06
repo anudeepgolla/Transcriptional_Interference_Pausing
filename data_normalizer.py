@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv('data/genomic_data_set_v2.csv')
 
-df = df[:][:500]
+# df = df[:][:500]
 
 # print(df.nunique())
 # print(df.columns, len(df.columns))
@@ -122,4 +122,4 @@ print(df.dtypes)
 
 
 
-df.to_csv('data/processed_genomic_data_set_v1_test.csv')
+df.to_csv('data/processed_genomic_data_set_v2.csv')
