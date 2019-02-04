@@ -1,0 +1,124 @@
+(7790, 939)
+Index(['position', 'pause_seq_0_A', 'pause_seq_0_C', 'pause_seq_0_G',
+       'pause_seq_0_T', 'pause_seq_1_A', 'pause_seq_1_C', 'pause_seq_1_G',
+       'pause_seq_1_T', 'pause_seq_2_A',
+       ...
+       'pause_context_215_G', 'pause_context_215_T', 'pause_context_216_A',
+       'pause_context_216_C', 'pause_context_216_G', 'pause_context_216_T',
+       'pause_context_217_A', 'pause_context_217_C', 'pause_context_217_G',
+       'pause_context_217_T'],
+      dtype='object', length=937)
+############################## DECISION TREE CLASSIFIER ##############################
+[0 0 1 0 1 1 1 1 1 1 0 0 0 1 0 1 0 1 0 0]
+[0 0 1 0 1 1 1 1 1 1 0 1 1 1 0 1 0 1 0 0]
+Confusion matrix
+
+[[629 154]
+ [  0 775]]
+Predicted    0    1
+Actual             
+1          110  202
+
+accuracy = 0.901 
+precision = 0.918 
+recall = 0.901 
+f1 = 0.900 
+cohen_kappa = 0.803
+[0.87660256 0.87820513 0.89262821 0.85737179 0.84775641 0.90369181
+ 0.894061   0.88424437 0.85691318 0.85048232]
+Cross Validation Score: 0.8741956782935505
+############################## RANDOM FOREST CLASSIFIER ##############################
+[0 0 1 0 1 1 1 1 1 1 0 0 0 1 0 1 0 1 0 0]
+[0 0 1 0 1 1 1 1 1 1 0 0 0 1 0 1 0 1 0 0]
+Confusion matrix
+
+[[746  37]
+ [  4 771]]
+Predicted    0    1
+Actual             
+1          140  172
+
+accuracy = 0.974 
+precision = 0.975 
+recall = 0.974 
+f1 = 0.974 
+cohen_kappa = 0.947
+[0.96794872 0.96474359 0.95833333 0.95673077 0.96153846 0.96629213
+ 0.96629213 0.93729904 0.95659164 0.95980707]
+Cross Validation Score: 0.9595576890653934
+############################## BAGGING TREES CLASSIFIER ##############################
+[0 0 1 0 1 1 1 1 1 1 0 0 0 1 0 1 0 1 0 0]
+[0 0 1 1 1 1 1 1 1 1 0 0 0 1 0 1 0 1 0 0]
+Confusion matrix
+
+[[744  39]
+ [  4 771]]
+Predicted    0    1
+Actual             
+1          140  172
+
+accuracy = 0.972 
+precision = 0.973 
+recall = 0.972 
+f1 = 0.972 
+cohen_kappa = 0.945
+[0.95833333 0.94551282 0.95833333 0.95192308 0.95192308 0.94221509
+ 0.94863563 0.95016077 0.95659164 0.93890675]
+Cross Validation Score: 0.9502535527324175
+############################## EXTRA TREES CLASSIFIER ##############################
+[0 0 1 0 1 1 1 1 1 1 0 0 0 1 0 1 0 1 0 0]
+[0 0 1 0 1 1 1 1 1 1 0 0 0 1 0 1 0 1 0 0]
+Confusion matrix
+
+[[769  14]
+ [  0 775]]
+Predicted    0    1
+Actual             
+1          144  168
+
+accuracy = 0.991 
+precision = 0.991 
+recall = 0.991 
+f1 = 0.991 
+cohen_kappa = 0.982
+[0.98237179 0.97275641 0.98076923 0.96794872 0.96955128 0.9823435
+ 0.98876404 0.96945338 0.97909968 0.97106109]
+Cross Validation Score: 0.9764119127948655
+############################## NAIVE BAYES CLASSIFIER ##############################
+[0 0 1 0 1 1 1 1 1 1 0 0 0 1 0 1 0 1 0 0]
+[0 0 1 0 1 1 1 1 1 1 0 0 0 1 0 1 0 1 0 0]
+Confusion matrix
+
+[[746  37]
+ [  4 771]]
+Predicted    0    1
+Actual             
+1          140  172
+
+accuracy = 0.974 
+precision = 0.975 
+recall = 0.974 
+f1 = 0.974 
+cohen_kappa = 0.947
+[0.52724359 0.50160256 0.51762821 0.50480769 0.52083333 0.51685393
+ 0.52808989 0.5192926  0.5192926  0.52733119]
+Cross Validation Score: 0.518297560355393
+############################## NAIVE BAYES CLASSIFIER ##############################
+[0 0 1 0 1 1 1 1 1 1 0 0 0 1 0 1 0 1 0 0]
+[1 0 1 0 1 0 0 0 1 0 1 0 0 1 0 1 0 1 1 1]
+Confusion matrix
+
+[[415 368]
+ [351 424]]
+Predicted    0    1
+Actual             
+1          146  166
+
+accuracy = 0.539 
+precision = 0.539 
+recall = 0.539 
+f1 = 0.538 
+cohen_kappa = 0.077
+[0.60096154 0.52564103 0.5849359  0.52083333 0.56410256 0.56661316
+ 0.53932584 0.62379421 0.54823151 0.55787781]
+Cross Validation Score: 0.5632316900767259

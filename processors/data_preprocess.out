@@ -1,0 +1,771 @@
+sys:1: DtypeWarning: Columns (1) have mixed types. Specify dtype option on import or set low_memory=False.
+data_normalizer.py:48: FutureWarning: set_value is deprecated and will be removed in a future release. Please use .at[] or .iat[] accessors instead
+  df.set_value(i, col, 1)
+data_normalizer.py:46: FutureWarning: set_value is deprecated and will be removed in a future release. Please use .at[] or .iat[] accessors instead
+  df.set_value(i, col, 0)
+data_normalizer.py:52: FutureWarning: set_value is deprecated and will be removed in a future release. Please use .at[] or .iat[] accessors instead
+  df.set_value(i, col, 'hc_true')
+data_normalizer.py:54: FutureWarning: set_value is deprecated and will be removed in a future release. Please use .at[] or .iat[] accessors instead
+  df.set_value(i, col, 'lc_true')
+data_normalizer.py:56: FutureWarning: set_value is deprecated and will be removed in a future release. Please use .at[] or .iat[] accessors instead
+  df.set_value(i, col, 'false')
+data_normalizer.py:58: FutureWarning: set_value is deprecated and will be removed in a future release. Please use .at[] or .iat[] accessors instead
+  df.set_value(i, col, 'false')
+pause_seq Modifcation Step: 0/33893
+pause_seq Modifcation Step: 100/33893
+pause_seq Modifcation Step: 200/33893
+pause_seq Modifcation Step: 300/33893
+pause_seq Modifcation Step: 400/33893
+pause_seq Modifcation Step: 500/33893
+pause_seq Modifcation Step: 600/33893
+pause_seq Modifcation Step: 700/33893
+pause_seq Modifcation Step: 800/33893
+pause_seq Modifcation Step: 900/33893
+pause_seq Modifcation Step: 1000/33893
+pause_seq Modifcation Step: 1100/33893
+pause_seq Modifcation Step: 1200/33893
+pause_seq Modifcation Step: 1300/33893
+pause_seq Modifcation Step: 1400/33893
+pause_seq Modifcation Step: 1500/33893
+pause_seq Modifcation Step: 1600/33893
+pause_seq Modifcation Step: 1700/33893
+pause_seq Modifcation Step: 1800/33893
+pause_seq Modifcation Step: 1900/33893
+pause_seq Modifcation Step: 2000/33893
+pause_seq Modifcation Step: 2100/33893
+pause_seq Modifcation Step: 2200/33893
+pause_seq Modifcation Step: 2300/33893
+pause_seq Modifcation Step: 2400/33893
+pause_seq Modifcation Step: 2500/33893
+pause_seq Modifcation Step: 2600/33893
+pause_seq Modifcation Step: 2700/33893
+pause_seq Modifcation Step: 2800/33893
+pause_seq Modifcation Step: 2900/33893
+pause_seq Modifcation Step: 3000/33893
+pause_seq Modifcation Step: 3100/33893
+pause_seq Modifcation Step: 3200/33893
+pause_seq Modifcation Step: 3300/33893
+pause_seq Modifcation Step: 3400/33893
+pause_seq Modifcation Step: 3500/33893
+pause_seq Modifcation Step: 3600/33893
+pause_seq Modifcation Step: 3700/33893
+pause_seq Modifcation Step: 3800/33893
+pause_seq Modifcation Step: 3900/33893
+pause_seq Modifcation Step: 4000/33893
+pause_seq Modifcation Step: 4100/33893
+pause_seq Modifcation Step: 4200/33893
+pause_seq Modifcation Step: 4300/33893
+pause_seq Modifcation Step: 4400/33893
+pause_seq Modifcation Step: 4500/33893
+pause_seq Modifcation Step: 4600/33893
+pause_seq Modifcation Step: 4700/33893
+pause_seq Modifcation Step: 4800/33893
+pause_seq Modifcation Step: 4900/33893
+pause_seq Modifcation Step: 5000/33893
+pause_seq Modifcation Step: 5100/33893
+pause_seq Modifcation Step: 5200/33893
+pause_seq Modifcation Step: 5300/33893
+pause_seq Modifcation Step: 5400/33893
+pause_seq Modifcation Step: 5500/33893
+pause_seq Modifcation Step: 5600/33893
+pause_seq Modifcation Step: 5700/33893
+pause_seq Modifcation Step: 5800/33893
+pause_seq Modifcation Step: 5900/33893
+pause_seq Modifcation Step: 6000/33893
+pause_seq Modifcation Step: 6100/33893
+pause_seq Modifcation Step: 6200/33893
+pause_seq Modifcation Step: 6300/33893
+pause_seq Modifcation Step: 6400/33893
+pause_seq Modifcation Step: 6500/33893
+pause_seq Modifcation Step: 6600/33893
+pause_seq Modifcation Step: 6700/33893
+pause_seq Modifcation Step: 6800/33893
+pause_seq Modifcation Step: 6900/33893
+pause_seq Modifcation Step: 7000/33893
+pause_seq Modifcation Step: 7100/33893
+pause_seq Modifcation Step: 7200/33893
+pause_seq Modifcation Step: 7300/33893
+pause_seq Modifcation Step: 7400/33893
+pause_seq Modifcation Step: 7500/33893
+pause_seq Modifcation Step: 7600/33893
+pause_seq Modifcation Step: 7700/33893
+pause_seq Modifcation Step: 7800/33893
+pause_seq Modifcation Step: 7900/33893
+pause_seq Modifcation Step: 8000/33893
+pause_seq Modifcation Step: 8100/33893
+pause_seq Modifcation Step: 8200/33893
+pause_seq Modifcation Step: 8300/33893
+pause_seq Modifcation Step: 8400/33893
+pause_seq Modifcation Step: 8500/33893
+pause_seq Modifcation Step: 8600/33893
+pause_seq Modifcation Step: 8700/33893
+pause_seq Modifcation Step: 8800/33893
+pause_seq Modifcation Step: 8900/33893
+pause_seq Modifcation Step: 9000/33893
+pause_seq Modifcation Step: 9100/33893
+pause_seq Modifcation Step: 9200/33893
+pause_seq Modifcation Step: 9300/33893
+pause_seq Modifcation Step: 9400/33893
+pause_seq Modifcation Step: 9500/33893
+pause_seq Modifcation Step: 9600/33893
+pause_seq Modifcation Step: 9700/33893
+pause_seq Modifcation Step: 9800/33893
+pause_seq Modifcation Step: 9900/33893
+pause_seq Modifcation Step: 10000/33893
+pause_seq Modifcation Step: 10100/33893
+pause_seq Modifcation Step: 10200/33893
+pause_seq Modifcation Step: 10300/33893
+pause_seq Modifcation Step: 10400/33893
+pause_seq Modifcation Step: 10500/33893
+pause_seq Modifcation Step: 10600/33893
+pause_seq Modifcation Step: 10700/33893
+pause_seq Modifcation Step: 10800/33893
+pause_seq Modifcation Step: 10900/33893
+pause_seq Modifcation Step: 11000/33893
+pause_seq Modifcation Step: 11100/33893
+pause_seq Modifcation Step: 11200/33893
+pause_seq Modifcation Step: 11300/33893
+pause_seq Modifcation Step: 11400/33893
+pause_seq Modifcation Step: 11500/33893
+pause_seq Modifcation Step: 11600/33893
+pause_seq Modifcation Step: 11700/33893
+pause_seq Modifcation Step: 11800/33893
+pause_seq Modifcation Step: 11900/33893
+pause_seq Modifcation Step: 12000/33893
+pause_seq Modifcation Step: 12100/33893
+pause_seq Modifcation Step: 12200/33893
+pause_seq Modifcation Step: 12300/33893
+pause_seq Modifcation Step: 12400/33893
+pause_seq Modifcation Step: 12500/33893
+pause_seq Modifcation Step: 12600/33893
+pause_seq Modifcation Step: 12700/33893
+pause_seq Modifcation Step: 12800/33893
+pause_seq Modifcation Step: 12900/33893
+pause_seq Modifcation Step: 13000/33893
+pause_seq Modifcation Step: 13100/33893
+pause_seq Modifcation Step: 13200/33893
+pause_seq Modifcation Step: 13300/33893
+pause_seq Modifcation Step: 13400/33893
+pause_seq Modifcation Step: 13500/33893
+pause_seq Modifcation Step: 13600/33893
+pause_seq Modifcation Step: 13700/33893
+pause_seq Modifcation Step: 13800/33893
+pause_seq Modifcation Step: 13900/33893
+pause_seq Modifcation Step: 14000/33893
+pause_seq Modifcation Step: 14100/33893
+pause_seq Modifcation Step: 14200/33893
+pause_seq Modifcation Step: 14300/33893
+pause_seq Modifcation Step: 14400/33893
+pause_seq Modifcation Step: 14500/33893
+pause_seq Modifcation Step: 14600/33893
+pause_seq Modifcation Step: 14700/33893
+pause_seq Modifcation Step: 14800/33893
+pause_seq Modifcation Step: 14900/33893
+pause_seq Modifcation Step: 15000/33893
+pause_seq Modifcation Step: 15100/33893
+pause_seq Modifcation Step: 15200/33893
+pause_seq Modifcation Step: 15300/33893
+pause_seq Modifcation Step: 15400/33893
+pause_seq Modifcation Step: 15500/33893
+pause_seq Modifcation Step: 15600/33893
+pause_seq Modifcation Step: 15700/33893
+pause_seq Modifcation Step: 15800/33893
+pause_seq Modifcation Step: 15900/33893
+pause_seq Modifcation Step: 16000/33893
+pause_seq Modifcation Step: 16100/33893
+pause_seq Modifcation Step: 16200/33893
+pause_seq Modifcation Step: 16300/33893
+pause_seq Modifcation Step: 16400/33893
+pause_seq Modifcation Step: 16500/33893
+pause_seq Modifcation Step: 16600/33893
+pause_seq Modifcation Step: 16700/33893
+pause_seq Modifcation Step: 16800/33893
+pause_seq Modifcation Step: 16900/33893
+pause_seq Modifcation Step: 17000/33893
+pause_seq Modifcation Step: 17100/33893
+pause_seq Modifcation Step: 17200/33893
+pause_seq Modifcation Step: 17300/33893
+pause_seq Modifcation Step: 17400/33893
+pause_seq Modifcation Step: 17500/33893
+pause_seq Modifcation Step: 17600/33893
+pause_seq Modifcation Step: 17700/33893
+pause_seq Modifcation Step: 17800/33893
+pause_seq Modifcation Step: 17900/33893
+pause_seq Modifcation Step: 18000/33893
+pause_seq Modifcation Step: 18100/33893
+pause_seq Modifcation Step: 18200/33893
+pause_seq Modifcation Step: 18300/33893
+pause_seq Modifcation Step: 18400/33893
+pause_seq Modifcation Step: 18500/33893
+pause_seq Modifcation Step: 18600/33893
+pause_seq Modifcation Step: 18700/33893
+pause_seq Modifcation Step: 18800/33893
+pause_seq Modifcation Step: 18900/33893
+pause_seq Modifcation Step: 19000/33893
+pause_seq Modifcation Step: 19100/33893
+pause_seq Modifcation Step: 19200/33893
+pause_seq Modifcation Step: 19300/33893
+pause_seq Modifcation Step: 19400/33893
+pause_seq Modifcation Step: 19500/33893
+pause_seq Modifcation Step: 19600/33893
+pause_seq Modifcation Step: 19700/33893
+pause_seq Modifcation Step: 19800/33893
+pause_seq Modifcation Step: 19900/33893
+pause_seq Modifcation Step: 20000/33893
+pause_seq Modifcation Step: 20100/33893
+pause_seq Modifcation Step: 20200/33893
+pause_seq Modifcation Step: 20300/33893
+pause_seq Modifcation Step: 20400/33893
+pause_seq Modifcation Step: 20500/33893
+pause_seq Modifcation Step: 20600/33893
+pause_seq Modifcation Step: 20700/33893
+pause_seq Modifcation Step: 20800/33893
+pause_seq Modifcation Step: 20900/33893
+pause_seq Modifcation Step: 21000/33893
+pause_seq Modifcation Step: 21100/33893
+pause_seq Modifcation Step: 21200/33893
+pause_seq Modifcation Step: 21300/33893
+pause_seq Modifcation Step: 21400/33893
+pause_seq Modifcation Step: 21500/33893
+pause_seq Modifcation Step: 21600/33893
+pause_seq Modifcation Step: 21700/33893
+pause_seq Modifcation Step: 21800/33893
+pause_seq Modifcation Step: 21900/33893
+pause_seq Modifcation Step: 22000/33893
+pause_seq Modifcation Step: 22100/33893
+pause_seq Modifcation Step: 22200/33893
+pause_seq Modifcation Step: 22300/33893
+pause_seq Modifcation Step: 22400/33893
+pause_seq Modifcation Step: 22500/33893
+pause_seq Modifcation Step: 22600/33893
+pause_seq Modifcation Step: 22700/33893
+pause_seq Modifcation Step: 22800/33893
+pause_seq Modifcation Step: 22900/33893
+pause_seq Modifcation Step: 23000/33893
+pause_seq Modifcation Step: 23100/33893
+pause_seq Modifcation Step: 23200/33893
+pause_seq Modifcation Step: 23300/33893
+pause_seq Modifcation Step: 23400/33893
+pause_seq Modifcation Step: 23500/33893
+pause_seq Modifcation Step: 23600/33893
+pause_seq Modifcation Step: 23700/33893
+pause_seq Modifcation Step: 23800/33893
+pause_seq Modifcation Step: 23900/33893
+pause_seq Modifcation Step: 24000/33893
+pause_seq Modifcation Step: 24100/33893
+pause_seq Modifcation Step: 24200/33893
+pause_seq Modifcation Step: 24300/33893
+pause_seq Modifcation Step: 24400/33893
+pause_seq Modifcation Step: 24500/33893
+pause_seq Modifcation Step: 24600/33893
+pause_seq Modifcation Step: 24700/33893
+pause_seq Modifcation Step: 24800/33893
+pause_seq Modifcation Step: 24900/33893
+pause_seq Modifcation Step: 25000/33893
+pause_seq Modifcation Step: 25100/33893
+pause_seq Modifcation Step: 25200/33893
+pause_seq Modifcation Step: 25300/33893
+pause_seq Modifcation Step: 25400/33893
+pause_seq Modifcation Step: 25500/33893
+pause_seq Modifcation Step: 25600/33893
+pause_seq Modifcation Step: 25700/33893
+pause_seq Modifcation Step: 25800/33893
+pause_seq Modifcation Step: 25900/33893
+pause_seq Modifcation Step: 26000/33893
+pause_seq Modifcation Step: 26100/33893
+pause_seq Modifcation Step: 26200/33893
+pause_seq Modifcation Step: 26300/33893
+pause_seq Modifcation Step: 26400/33893
+pause_seq Modifcation Step: 26500/33893
+pause_seq Modifcation Step: 26600/33893
+pause_seq Modifcation Step: 26700/33893
+pause_seq Modifcation Step: 26800/33893
+pause_seq Modifcation Step: 26900/33893
+pause_seq Modifcation Step: 27000/33893
+pause_seq Modifcation Step: 27100/33893
+pause_seq Modifcation Step: 27200/33893
+pause_seq Modifcation Step: 27300/33893
+pause_seq Modifcation Step: 27400/33893
+pause_seq Modifcation Step: 27500/33893
+pause_seq Modifcation Step: 27600/33893
+pause_seq Modifcation Step: 27700/33893
+pause_seq Modifcation Step: 27800/33893
+pause_seq Modifcation Step: 27900/33893
+pause_seq Modifcation Step: 28000/33893
+pause_seq Modifcation Step: 28100/33893
+pause_seq Modifcation Step: 28200/33893
+pause_seq Modifcation Step: 28300/33893
+pause_seq Modifcation Step: 28400/33893
+pause_seq Modifcation Step: 28500/33893
+pause_seq Modifcation Step: 28600/33893
+pause_seq Modifcation Step: 28700/33893
+pause_seq Modifcation Step: 28800/33893
+pause_seq Modifcation Step: 28900/33893
+pause_seq Modifcation Step: 29000/33893
+pause_seq Modifcation Step: 29100/33893
+pause_seq Modifcation Step: 29200/33893
+pause_seq Modifcation Step: 29300/33893
+pause_seq Modifcation Step: 29400/33893
+pause_seq Modifcation Step: 29500/33893
+pause_seq Modifcation Step: 29600/33893
+pause_seq Modifcation Step: 29700/33893
+pause_seq Modifcation Step: 29800/33893
+pause_seq Modifcation Step: 29900/33893
+pause_seq Modifcation Step: 30000/33893
+pause_seq Modifcation Step: 30100/33893
+pause_seq Modifcation Step: 30200/33893
+pause_seq Modifcation Step: 30300/33893
+pause_seq Modifcation Step: 30400/33893
+pause_seq Modifcation Step: 30500/33893
+pause_seq Modifcation Step: 30600/33893
+pause_seq Modifcation Step: 30700/33893
+pause_seq Modifcation Step: 30800/33893
+pause_seq Modifcation Step: 30900/33893
+pause_seq Modifcation Step: 31000/33893
+pause_seq Modifcation Step: 31100/33893
+pause_seq Modifcation Step: 31200/33893
+pause_seq Modifcation Step: 31300/33893
+pause_seq Modifcation Step: 31400/33893
+pause_seq Modifcation Step: 31500/33893
+pause_seq Modifcation Step: 31600/33893
+pause_seq Modifcation Step: 31700/33893
+pause_seq Modifcation Step: 31800/33893
+pause_seq Modifcation Step: 31900/33893
+pause_seq Modifcation Step: 32000/33893
+pause_seq Modifcation Step: 32100/33893
+pause_seq Modifcation Step: 32200/33893
+pause_seq Modifcation Step: 32300/33893
+pause_seq Modifcation Step: 32400/33893
+pause_seq Modifcation Step: 32500/33893
+pause_seq Modifcation Step: 32600/33893
+pause_seq Modifcation Step: 32700/33893
+pause_seq Modifcation Step: 32800/33893
+pause_seq Modifcation Step: 32900/33893
+pause_seq Modifcation Step: 33000/33893
+pause_seq Modifcation Step: 33100/33893
+pause_seq Modifcation Step: 33200/33893
+pause_seq Modifcation Step: 33300/33893
+pause_seq Modifcation Step: 33400/33893
+pause_seq Modifcation Step: 33500/33893
+pause_seq Modifcation Step: 33600/33893
+pause_seq Modifcation Step: 33700/33893
+pause_seq Modifcation Step: 33800/33893
+pause_context Modifcation Step: 0/33893
+pause_context Modifcation Step: 100/33893
+pause_context Modifcation Step: 200/33893
+pause_context Modifcation Step: 300/33893
+pause_context Modifcation Step: 400/33893
+pause_context Modifcation Step: 500/33893
+pause_context Modifcation Step: 600/33893
+pause_context Modifcation Step: 700/33893
+pause_context Modifcation Step: 800/33893
+pause_context Modifcation Step: 900/33893
+pause_context Modifcation Step: 1000/33893
+pause_context Modifcation Step: 1100/33893
+pause_context Modifcation Step: 1200/33893
+pause_context Modifcation Step: 1300/33893
+pause_context Modifcation Step: 1400/33893
+pause_context Modifcation Step: 1500/33893
+pause_context Modifcation Step: 1600/33893
+pause_context Modifcation Step: 1700/33893
+pause_context Modifcation Step: 1800/33893
+pause_context Modifcation Step: 1900/33893
+pause_context Modifcation Step: 2000/33893
+pause_context Modifcation Step: 2100/33893
+pause_context Modifcation Step: 2200/33893
+pause_context Modifcation Step: 2300/33893
+pause_context Modifcation Step: 2400/33893
+pause_context Modifcation Step: 2500/33893
+pause_context Modifcation Step: 2600/33893
+pause_context Modifcation Step: 2700/33893
+pause_context Modifcation Step: 2800/33893
+pause_context Modifcation Step: 2900/33893
+pause_context Modifcation Step: 3000/33893
+pause_context Modifcation Step: 3100/33893
+pause_context Modifcation Step: 3200/33893
+pause_context Modifcation Step: 3300/33893
+pause_context Modifcation Step: 3400/33893
+pause_context Modifcation Step: 3500/33893
+pause_context Modifcation Step: 3600/33893
+pause_context Modifcation Step: 3700/33893
+pause_context Modifcation Step: 3800/33893
+pause_context Modifcation Step: 3900/33893
+pause_context Modifcation Step: 4000/33893
+pause_context Modifcation Step: 4100/33893
+pause_context Modifcation Step: 4200/33893
+pause_context Modifcation Step: 4300/33893
+pause_context Modifcation Step: 4400/33893
+pause_context Modifcation Step: 4500/33893
+pause_context Modifcation Step: 4600/33893
+pause_context Modifcation Step: 4700/33893
+pause_context Modifcation Step: 4800/33893
+pause_context Modifcation Step: 4900/33893
+pause_context Modifcation Step: 5000/33893
+pause_context Modifcation Step: 5100/33893
+pause_context Modifcation Step: 5200/33893
+pause_context Modifcation Step: 5300/33893
+pause_context Modifcation Step: 5400/33893
+pause_context Modifcation Step: 5500/33893
+pause_context Modifcation Step: 5600/33893
+pause_context Modifcation Step: 5700/33893
+pause_context Modifcation Step: 5800/33893
+pause_context Modifcation Step: 5900/33893
+pause_context Modifcation Step: 6000/33893
+pause_context Modifcation Step: 6100/33893
+pause_context Modifcation Step: 6200/33893
+pause_context Modifcation Step: 6300/33893
+pause_context Modifcation Step: 6400/33893
+pause_context Modifcation Step: 6500/33893
+pause_context Modifcation Step: 6600/33893
+pause_context Modifcation Step: 6700/33893
+pause_context Modifcation Step: 6800/33893
+pause_context Modifcation Step: 6900/33893
+pause_context Modifcation Step: 7000/33893
+pause_context Modifcation Step: 7100/33893
+pause_context Modifcation Step: 7200/33893
+pause_context Modifcation Step: 7300/33893
+pause_context Modifcation Step: 7400/33893
+pause_context Modifcation Step: 7500/33893
+pause_context Modifcation Step: 7600/33893
+pause_context Modifcation Step: 7700/33893
+pause_context Modifcation Step: 7800/33893
+pause_context Modifcation Step: 7900/33893
+pause_context Modifcation Step: 8000/33893
+pause_context Modifcation Step: 8100/33893
+pause_context Modifcation Step: 8200/33893
+pause_context Modifcation Step: 8300/33893
+pause_context Modifcation Step: 8400/33893
+pause_context Modifcation Step: 8500/33893
+pause_context Modifcation Step: 8600/33893
+pause_context Modifcation Step: 8700/33893
+pause_context Modifcation Step: 8800/33893
+pause_context Modifcation Step: 8900/33893
+pause_context Modifcation Step: 9000/33893
+pause_context Modifcation Step: 9100/33893
+pause_context Modifcation Step: 9200/33893
+pause_context Modifcation Step: 9300/33893
+pause_context Modifcation Step: 9400/33893
+pause_context Modifcation Step: 9500/33893
+pause_context Modifcation Step: 9600/33893
+pause_context Modifcation Step: 9700/33893
+pause_context Modifcation Step: 9800/33893
+pause_context Modifcation Step: 9900/33893
+pause_context Modifcation Step: 10000/33893
+pause_context Modifcation Step: 10100/33893
+pause_context Modifcation Step: 10200/33893
+pause_context Modifcation Step: 10300/33893
+pause_context Modifcation Step: 10400/33893
+pause_context Modifcation Step: 10500/33893
+pause_context Modifcation Step: 10600/33893
+pause_context Modifcation Step: 10700/33893
+pause_context Modifcation Step: 10800/33893
+pause_context Modifcation Step: 10900/33893
+pause_context Modifcation Step: 11000/33893
+pause_context Modifcation Step: 11100/33893
+pause_context Modifcation Step: 11200/33893
+pause_context Modifcation Step: 11300/33893
+pause_context Modifcation Step: 11400/33893
+pause_context Modifcation Step: 11500/33893
+pause_context Modifcation Step: 11600/33893
+pause_context Modifcation Step: 11700/33893
+pause_context Modifcation Step: 11800/33893
+pause_context Modifcation Step: 11900/33893
+pause_context Modifcation Step: 12000/33893
+pause_context Modifcation Step: 12100/33893
+pause_context Modifcation Step: 12200/33893
+pause_context Modifcation Step: 12300/33893
+pause_context Modifcation Step: 12400/33893
+pause_context Modifcation Step: 12500/33893
+pause_context Modifcation Step: 12600/33893
+pause_context Modifcation Step: 12700/33893
+pause_context Modifcation Step: 12800/33893
+pause_context Modifcation Step: 12900/33893
+pause_context Modifcation Step: 13000/33893
+pause_context Modifcation Step: 13100/33893
+pause_context Modifcation Step: 13200/33893
+pause_context Modifcation Step: 13300/33893
+pause_context Modifcation Step: 13400/33893
+pause_context Modifcation Step: 13500/33893
+pause_context Modifcation Step: 13600/33893
+pause_context Modifcation Step: 13700/33893
+pause_context Modifcation Step: 13800/33893
+pause_context Modifcation Step: 13900/33893
+pause_context Modifcation Step: 14000/33893
+pause_context Modifcation Step: 14100/33893
+pause_context Modifcation Step: 14200/33893
+pause_context Modifcation Step: 14300/33893
+pause_context Modifcation Step: 14400/33893
+pause_context Modifcation Step: 14500/33893
+pause_context Modifcation Step: 14600/33893
+pause_context Modifcation Step: 14700/33893
+pause_context Modifcation Step: 14800/33893
+pause_context Modifcation Step: 14900/33893
+pause_context Modifcation Step: 15000/33893
+pause_context Modifcation Step: 15100/33893
+pause_context Modifcation Step: 15200/33893
+pause_context Modifcation Step: 15300/33893
+pause_context Modifcation Step: 15400/33893
+pause_context Modifcation Step: 15500/33893
+pause_context Modifcation Step: 15600/33893
+pause_context Modifcation Step: 15700/33893
+pause_context Modifcation Step: 15800/33893
+pause_context Modifcation Step: 15900/33893
+pause_context Modifcation Step: 16000/33893
+pause_context Modifcation Step: 16100/33893
+pause_context Modifcation Step: 16200/33893
+pause_context Modifcation Step: 16300/33893
+pause_context Modifcation Step: 16400/33893
+pause_context Modifcation Step: 16500/33893
+pause_context Modifcation Step: 16600/33893
+pause_context Modifcation Step: 16700/33893
+pause_context Modifcation Step: 16800/33893
+pause_context Modifcation Step: 16900/33893
+pause_context Modifcation Step: 17000/33893
+pause_context Modifcation Step: 17100/33893
+pause_context Modifcation Step: 17200/33893
+pause_context Modifcation Step: 17300/33893
+pause_context Modifcation Step: 17400/33893
+pause_context Modifcation Step: 17500/33893
+pause_context Modifcation Step: 17600/33893
+pause_context Modifcation Step: 17700/33893
+pause_context Modifcation Step: 17800/33893
+pause_context Modifcation Step: 17900/33893
+pause_context Modifcation Step: 18000/33893
+pause_context Modifcation Step: 18100/33893
+pause_context Modifcation Step: 18200/33893
+pause_context Modifcation Step: 18300/33893
+pause_context Modifcation Step: 18400/33893
+pause_context Modifcation Step: 18500/33893
+pause_context Modifcation Step: 18600/33893
+pause_context Modifcation Step: 18700/33893
+pause_context Modifcation Step: 18800/33893
+pause_context Modifcation Step: 18900/33893
+pause_context Modifcation Step: 19000/33893
+pause_context Modifcation Step: 19100/33893
+pause_context Modifcation Step: 19200/33893
+pause_context Modifcation Step: 19300/33893
+pause_context Modifcation Step: 19400/33893
+pause_context Modifcation Step: 19500/33893
+pause_context Modifcation Step: 19600/33893
+pause_context Modifcation Step: 19700/33893
+pause_context Modifcation Step: 19800/33893
+pause_context Modifcation Step: 19900/33893
+pause_context Modifcation Step: 20000/33893
+pause_context Modifcation Step: 20100/33893
+pause_context Modifcation Step: 20200/33893
+pause_context Modifcation Step: 20300/33893
+pause_context Modifcation Step: 20400/33893
+pause_context Modifcation Step: 20500/33893
+pause_context Modifcation Step: 20600/33893
+pause_context Modifcation Step: 20700/33893
+pause_context Modifcation Step: 20800/33893
+pause_context Modifcation Step: 20900/33893
+pause_context Modifcation Step: 21000/33893
+pause_context Modifcation Step: 21100/33893
+pause_context Modifcation Step: 21200/33893
+pause_context Modifcation Step: 21300/33893
+pause_context Modifcation Step: 21400/33893
+pause_context Modifcation Step: 21500/33893
+pause_context Modifcation Step: 21600/33893
+pause_context Modifcation Step: 21700/33893
+pause_context Modifcation Step: 21800/33893
+pause_context Modifcation Step: 21900/33893
+pause_context Modifcation Step: 22000/33893
+pause_context Modifcation Step: 22100/33893
+pause_context Modifcation Step: 22200/33893
+pause_context Modifcation Step: 22300/33893
+pause_context Modifcation Step: 22400/33893
+pause_context Modifcation Step: 22500/33893
+pause_context Modifcation Step: 22600/33893
+pause_context Modifcation Step: 22700/33893
+pause_context Modifcation Step: 22800/33893
+pause_context Modifcation Step: 22900/33893
+pause_context Modifcation Step: 23000/33893
+pause_context Modifcation Step: 23100/33893
+pause_context Modifcation Step: 23200/33893
+pause_context Modifcation Step: 23300/33893
+pause_context Modifcation Step: 23400/33893
+pause_context Modifcation Step: 23500/33893
+pause_context Modifcation Step: 23600/33893
+pause_context Modifcation Step: 23700/33893
+pause_context Modifcation Step: 23800/33893
+pause_context Modifcation Step: 23900/33893
+pause_context Modifcation Step: 24000/33893
+pause_context Modifcation Step: 24100/33893
+pause_context Modifcation Step: 24200/33893
+pause_context Modifcation Step: 24300/33893
+pause_context Modifcation Step: 24400/33893
+pause_context Modifcation Step: 24500/33893
+pause_context Modifcation Step: 24600/33893
+pause_context Modifcation Step: 24700/33893
+pause_context Modifcation Step: 24800/33893
+pause_context Modifcation Step: 24900/33893
+pause_context Modifcation Step: 25000/33893
+pause_context Modifcation Step: 25100/33893
+pause_context Modifcation Step: 25200/33893
+pause_context Modifcation Step: 25300/33893
+pause_context Modifcation Step: 25400/33893
+pause_context Modifcation Step: 25500/33893
+pause_context Modifcation Step: 25600/33893
+pause_context Modifcation Step: 25700/33893
+pause_context Modifcation Step: 25800/33893
+pause_context Modifcation Step: 25900/33893
+pause_context Modifcation Step: 26000/33893
+pause_context Modifcation Step: 26100/33893
+pause_context Modifcation Step: 26200/33893
+pause_context Modifcation Step: 26300/33893
+pause_context Modifcation Step: 26400/33893
+pause_context Modifcation Step: 26500/33893
+pause_context Modifcation Step: 26600/33893
+pause_context Modifcation Step: 26700/33893
+pause_context Modifcation Step: 26800/33893
+pause_context Modifcation Step: 26900/33893
+pause_context Modifcation Step: 27000/33893
+pause_context Modifcation Step: 27100/33893
+pause_context Modifcation Step: 27200/33893
+pause_context Modifcation Step: 27300/33893
+pause_context Modifcation Step: 27400/33893
+pause_context Modifcation Step: 27500/33893
+pause_context Modifcation Step: 27600/33893
+pause_context Modifcation Step: 27700/33893
+pause_context Modifcation Step: 27800/33893
+pause_context Modifcation Step: 27900/33893
+pause_context Modifcation Step: 28000/33893
+pause_context Modifcation Step: 28100/33893
+pause_context Modifcation Step: 28200/33893
+pause_context Modifcation Step: 28300/33893
+pause_context Modifcation Step: 28400/33893
+pause_context Modifcation Step: 28500/33893
+pause_context Modifcation Step: 28600/33893
+pause_context Modifcation Step: 28700/33893
+pause_context Modifcation Step: 28800/33893
+pause_context Modifcation Step: 28900/33893
+pause_context Modifcation Step: 29000/33893
+pause_context Modifcation Step: 29100/33893
+pause_context Modifcation Step: 29200/33893
+pause_context Modifcation Step: 29300/33893
+pause_context Modifcation Step: 29400/33893
+pause_context Modifcation Step: 29500/33893
+pause_context Modifcation Step: 29600/33893
+pause_context Modifcation Step: 29700/33893
+pause_context Modifcation Step: 29800/33893
+pause_context Modifcation Step: 29900/33893
+pause_context Modifcation Step: 30000/33893
+pause_context Modifcation Step: 30100/33893
+pause_context Modifcation Step: 30200/33893
+pause_context Modifcation Step: 30300/33893
+pause_context Modifcation Step: 30400/33893
+pause_context Modifcation Step: 30500/33893
+pause_context Modifcation Step: 30600/33893
+pause_context Modifcation Step: 30700/33893
+pause_context Modifcation Step: 30800/33893
+pause_context Modifcation Step: 30900/33893
+pause_context Modifcation Step: 31000/33893
+pause_context Modifcation Step: 31100/33893
+pause_context Modifcation Step: 31200/33893
+pause_context Modifcation Step: 31300/33893
+pause_context Modifcation Step: 31400/33893
+pause_context Modifcation Step: 31500/33893
+pause_context Modifcation Step: 31600/33893
+pause_context Modifcation Step: 31700/33893
+pause_context Modifcation Step: 31800/33893
+pause_context Modifcation Step: 31900/33893
+pause_context Modifcation Step: 32000/33893
+pause_context Modifcation Step: 32100/33893
+pause_context Modifcation Step: 32200/33893
+pause_context Modifcation Step: 32300/33893
+pause_context Modifcation Step: 32400/33893
+pause_context Modifcation Step: 32500/33893
+pause_context Modifcation Step: 32600/33893
+pause_context Modifcation Step: 32700/33893
+pause_context Modifcation Step: 32800/33893
+pause_context Modifcation Step: 32900/33893
+pause_context Modifcation Step: 33000/33893
+pause_context Modifcation Step: 33100/33893
+pause_context Modifcation Step: 33200/33893
+pause_context Modifcation Step: 33300/33893
+pause_context Modifcation Step: 33400/33893
+pause_context Modifcation Step: 33500/33893
+pause_context Modifcation Step: 33600/33893
+pause_context Modifcation Step: 33700/33893
+pause_context Modifcation Step: 33800/33893
+ACCACAGGTAACGGTG
+SEQUENCE After A C C G
+   position         ...           pause_context_217_T
+0  0.000000         ...                             0
+1  0.000800         ...                             1
+2  0.001876         ...                             1
+3  0.001907         ...                             0
+4  0.001944         ...                             0
+
+[5 rows x 959 columns]
+Index(['position', 'pause_G', 'pause_C', 'context_G', 'context_C', 'gene',
+       'gene_start', 'gene_end', 'start_dist_abs', 'start_dist_rel',
+       ...
+       'pause_context_215_G', 'pause_context_215_T', 'pause_context_216_A',
+       'pause_context_216_C', 'pause_context_216_G', 'pause_context_216_T',
+       'pause_context_217_A', 'pause_context_217_C', 'pause_context_217_G',
+       'pause_context_217_T'],
+      dtype='object', length=959)
+position                float64
+pause_G                 float64
+pause_C                 float64
+context_G               float64
+context_C               float64
+gene                     object
+gene_start              float64
+gene_end                float64
+start_dist_abs          float64
+start_dist_rel          float64
+end_dist_abs            float64
+end_dist_rel            float64
+pause_status_false        uint8
+pause_status_hc_true      uint8
+pause_status_lc_true      uint8
+ref_base_A                uint8
+ref_base_C                uint8
+ref_base_G                uint8
+ref_base_T                uint8
+trans_base_A              uint8
+trans_base_C              uint8
+trans_base_G              uint8
+trans_base_T              uint8
+pause_seq_0_A             uint8
+pause_seq_0_C             uint8
+pause_seq_0_G             uint8
+pause_seq_0_T             uint8
+pause_seq_1_A             uint8
+pause_seq_1_C             uint8
+pause_seq_1_G             uint8
+                         ...   
+pause_context_210_G       uint8
+pause_context_210_T       uint8
+pause_context_211_A       uint8
+pause_context_211_C       uint8
+pause_context_211_G       uint8
+pause_context_211_T       uint8
+pause_context_212_A       uint8
+pause_context_212_C       uint8
+pause_context_212_G       uint8
+pause_context_212_T       uint8
+pause_context_213_A       uint8
+pause_context_213_C       uint8
+pause_context_213_G       uint8
+pause_context_213_T       uint8
+pause_context_214_A       uint8
+pause_context_214_C       uint8
+pause_context_214_G       uint8
+pause_context_214_T       uint8
+pause_context_215_A       uint8
+pause_context_215_C       uint8
+pause_context_215_G       uint8
+pause_context_215_T       uint8
+pause_context_216_A       uint8
+pause_context_216_C       uint8
+pause_context_216_G       uint8
+pause_context_216_T       uint8
+pause_context_217_A       uint8
+pause_context_217_C       uint8
+pause_context_217_G       uint8
+pause_context_217_T       uint8
+Length: 959, dtype: object
