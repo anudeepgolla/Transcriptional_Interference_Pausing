@@ -1,0 +1,332 @@
+(7790, 256)
+(7790,)
+
+FEATURES SELECTKBEST SCORES
+
+[5.37764407e-02 8.29316415e-02 4.00442111e+00 8.64840776e-01
+ 1.41048525e+00 3.33400125e-01 2.18729493e+00 5.06147673e+00
+ 1.38541085e+01 1.09312830e+00 1.64146254e+00 5.71238213e+00
+ 9.27088866e-02 8.80466771e-01 3.18547017e+00 2.57624323e-02
+ 4.57313695e+00 9.03022209e+00 1.54609967e+00 2.60071692e-01
+ 4.41760231e+00 3.45046285e+00 1.16716616e+00 2.66045075e-01
+ 9.72877527e+00 5.10371899e-01 1.03853438e+01 4.80846080e-03
+ 1.79601772e-01 6.79042819e+00 1.97600704e+00 3.58646972e-01
+ 2.50764911e+01 5.00073361e-02 8.30348020e-01 7.62054964e-01
+ 2.17246353e-02 6.69830973e+00 1.45451571e+01 9.96067560e+00
+ 1.57932207e+00 3.06225769e-01 4.07597531e-01 2.91434092e+00
+ 4.38637294e+00 7.82128688e-01 4.36462712e-01 1.15044501e+00
+ 8.37480307e-02 2.64986609e+00 2.18876693e-01 1.16391025e+00
+ 1.96855992e+00 7.64584045e-02 8.58378164e-01 7.03362530e-01
+ 3.18309703e+00 7.41765381e-03 2.94197647e+00 6.29750689e-01
+ 2.71765051e-02 2.10052311e+00 1.10977824e+01 4.65297491e+00
+ 1.13529195e-02 2.43105433e+00 4.73679355e+00 3.71637928e-01
+ 1.57998501e+01 2.41023863e+00 5.17770484e+00 1.06284016e+01
+ 9.30523995e-02 5.08735413e-01 9.03531277e-02 8.09584804e+00
+ 2.42581356e+00 5.04713453e+00 4.37645201e-01 5.53194241e+00
+ 2.78643926e-02 4.95520066e+00 9.37623990e-01 3.96212037e+00
+ 7.59645079e-01 2.59293135e-01 1.43894972e+01 1.72838322e+01
+ 2.67635377e+00 1.12540321e+01 4.13405862e-01 3.03660730e-01
+ 4.10297602e-01 1.83480990e-01 6.51748542e-01 3.77116287e+00
+ 1.13052552e+01 1.45666719e-04 5.46654433e-01 4.07662751e+00
+ 1.04632996e+00 2.01159767e+00 4.01773029e+00 6.68344210e+00
+ 1.08012943e+01 1.35719595e+00 2.71772564e+00 3.75559228e-01
+ 3.03311020e+00 7.19071118e+00 5.16898035e+00 1.36780087e+01
+ 6.36655992e+00 2.35612603e+00 9.01517262e-01 1.52863013e-01
+ 1.41967502e+01 2.44830019e+00 1.91122921e-01 4.66417078e-01
+ 5.75823767e+00 1.03961009e+00 5.18408108e+00 3.51217335e-01
+ 1.34019517e+00 1.96328845e+00 1.38735947e+00 2.59682800e+00
+ 9.46183103e-01 9.31671452e+00 1.19676488e+01 1.11473051e+01
+ 7.26844045e-01 1.68919341e+01 2.97803343e-01 1.65681600e+00
+ 6.84311436e+00 7.13741413e+00 6.85906403e-01 1.56362095e+00
+ 1.29733723e+01 2.05944891e-01 4.99068716e+00 1.28218842e+00
+ 4.10226644e-02 1.10566910e+00 8.10019499e-04 1.25101246e+00
+ 9.99484918e-02 3.66918437e+00 7.19399733e-01 1.83099622e-01
+ 1.03919307e-02 2.16356602e+00 6.15313244e+00 4.00940434e-01
+ 8.91025850e+00 4.04875790e+00 1.18672323e+01 7.79088030e+00
+ 4.18845476e+00 7.44761199e-03 8.53501525e+00 6.78044135e+00
+ 1.80627567e+01 8.29618168e+00 3.01400468e+01 9.49918762e-01
+ 7.62928885e-01 4.11966040e+01 2.18404654e+00 2.03727643e-01
+ 1.50334130e-01 2.33747495e+00 8.48907023e+00 4.72640913e+00
+ 3.91936784e+00 4.27641845e+00 1.85726021e+00 1.02994262e+00
+ 6.10659214e-02 7.07890882e+00 3.37667712e+00 3.78699924e+00
+ 1.10267929e-01 1.50282248e+00 3.68454108e+01 6.55430492e-02
+ 7.54518585e-01 4.66149866e+00 1.02199082e+00 1.67089446e-02
+ 3.55539616e+00 1.70629189e+00 1.00467418e-02 2.71538451e-01
+ 8.38746431e-01 1.13141397e+00 1.46386973e+00 1.37050808e-02
+ 1.46843789e+00 7.95026029e-01 8.58069614e+00 2.66668116e-02
+ 6.49377848e+00 2.55629318e-01 1.58405961e+01 1.11552206e+01
+ 3.43224072e+00 1.27924789e+00 5.20056779e-01 3.95467560e-02
+ 3.92051286e+00 1.91031069e-01 1.03483216e-02 4.10553299e+00
+ 1.37005727e-01 1.64876665e+01 3.58078078e-01 5.56805350e+00
+ 4.49356062e-02 7.80890435e-01 2.49549176e-01 1.48158713e-02
+ 1.15503237e+00 1.22245702e+00 4.03705296e+00 1.17667000e+01
+ 2.95370198e+00 2.09070479e+00 1.81183943e+00 7.97935372e+00
+ 9.09636494e+00 1.55005061e+01 8.59312883e+00 5.74017655e+00
+ 1.12917718e+01 5.77028639e-01 3.80279346e+00 5.12714823e-01
+ 4.51431586e-02 1.98927203e+00 2.76463785e-01 9.51771344e+00
+ 7.26916179e-01 5.85878700e+00 1.95251135e-01 3.07037576e+00
+ 1.04461636e-01 7.37445868e-01 9.03567626e+00 1.18550792e-01
+ 1.98873376e+01 9.32805962e-03 8.56719851e-04 1.30529952e+00]
+
+############################## EXTRA TREES CLASSIFIER ##############################
+
+Fitting 10 folds for each of 1 candidates, totalling 10 fits
+building tree 1 of 10
+building tree 2 of 10
+building tree 3 of 10
+building tree 4 of 10
+building tree 5 of 10
+building tree 6 of 10
+building tree 7 of 10
+building tree 8 of 10
+building tree 9 of 10
+building tree 10 of 10
+building tree 1 of 10
+building tree 2 of 10
+building tree 3 of 10
+building tree 4 of 10
+building tree 5 of 10
+building tree 6 of 10
+building tree 7 of 10
+building tree 8 of 10
+building tree 9 of 10
+building tree 10 of 10
+building tree 1 of 10
+building tree 2 of 10
+building tree 3 of 10
+building tree 4 of 10
+building tree 5 of 10
+building tree 6 of 10
+building tree 7 of 10
+building tree 8 of 10
+building tree 9 of 10
+building tree 10 of 10
+building tree 1 of 10
+building tree 2 of 10
+building tree 3 of 10
+building tree 4 of 10
+building tree 5 of 10
+building tree 6 of 10
+building tree 7 of 10
+building tree 8 of 10
+building tree 9 of 10
+building tree 10 of 10
+building tree 1 of 10
+building tree 2 of 10
+building tree 3 of 10
+building tree 4 of 10
+building tree 5 of 10
+building tree 6 of 10
+building tree 7 of 10
+building tree 8 of 10
+building tree 9 of 10
+building tree 10 of 10
+building tree 1 of 10
+building tree 2 of 10
+building tree 3 of 10
+building tree 4 of 10
+building tree 5 of 10
+building tree 6 of 10
+building tree 7 of 10
+building tree 8 of 10
+building tree 9 of 10
+building tree 10 of 10
+building tree 1 of 10
+building tree 2 of 10
+building tree 3 of 10
+building tree 4 of 10
+building tree 5 of 10
+building tree 6 of 10
+building tree 7 of 10
+building tree 8 of 10
+building tree 9 of 10
+building tree 10 of 10
+building tree 1 of 10
+building tree 2 of 10
+building tree 3 of 10
+building tree 4 of 10
+building tree 5 of 10
+building tree 6 of 10
+building tree 7 of 10
+building tree 8 of 10
+building tree 9 of 10
+building tree 10 of 10
+building tree 1 of 10
+building tree 2 of 10
+building tree 3 of 10
+building tree 4 of 10
+building tree 5 of 10
+building tree 6 of 10
+building tree 7 of 10
+building tree 8 of 10
+building tree 9 of 10
+building tree 10 of 10
+building tree 1 of 10
+building tree 2 of 10
+building tree 3 of 10
+building tree 4 of 10
+building tree 5 of 10
+building tree 6 of 10
+building tree 7 of 10
+building tree 8 of 10
+building tree 9 of 10
+building tree 10 of 10
+building tree 1 of 10
+building tree 2 of 10
+building tree 3 of 10
+building tree 4 of 10
+building tree 5 of 10
+building tree 6 of 10
+building tree 7 of 10
+building tree 8 of 10
+building tree 9 of 10
+building tree 10 of 10
+
+CV RESULTS
+
+{'mean_fit_time': array([0.08121862]), 'std_fit_time': array([0.00577712]), 'mean_score_time': array([0.00302932]), 'std_score_time': array([0.00022264]), 'param_max_depth': masked_array(data=[10],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_min_samples_leaf': masked_array(data=[0.01],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_min_samples_split': masked_array(data=[0.01],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_n_estimators': masked_array(data=[10],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_verbose': masked_array(data=[2],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_depth': 10, 'min_samples_leaf': 0.01, 'min_samples_split': 0.01, 'n_estimators': 10, 'verbose': 2}], 'split0_test_score': array([0.63554758]), 'split1_test_score': array([0.62522202]), 'split2_test_score': array([0.65240642]), 'split3_test_score': array([0.6405694]), 'split4_test_score': array([0.65874363]), 'split5_test_score': array([0.64223386]), 'split6_test_score': array([0.59099099]), 'split7_test_score': array([0.61510129]), 'split8_test_score': array([0.64261168]), 'split9_test_score': array([0.62477558]), 'mean_test_score': array([0.6328239]), 'std_test_score': array([0.01869013]), 'rank_test_score': array([1], dtype=int32), 'split0_train_score': array([0.75195925]), 'split1_train_score': array([0.74035292]), 'split2_train_score': array([0.75859405]), 'split3_train_score': array([0.74661964]), 'split4_train_score': array([0.77450601]), 'split5_train_score': array([0.75328185]), 'split6_train_score': array([0.7688743]), 'split7_train_score': array([0.7308603]), 'split8_train_score': array([0.76937763]), 'split9_train_score': array([0.76860307]), 'mean_train_score': array([0.7563029]), 'std_train_score': array([0.01356603])}
+
+BEST PARAMETERS
+
+{'max_depth': 10, 'min_samples_leaf': 0.01, 'min_samples_split': 0.01, 'n_estimators': 10, 'verbose': 2}
+
+Best Extratrees Model: ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=10, max_features='auto', max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=0.01, min_samples_split=0.01,
+           min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=None,
+           oob_score=False, random_state=None, verbose=2, warm_start=False)
+
+Best Score: 0.6328238972018073
+
+ESTIMATORS
+
+[ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=1352578167,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=924672080,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=1860846108,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=515709790,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=1216287391,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=110318283,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=885165809,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=287298529,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=237718185,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=1826295644,
+          splitter='random')]
+
+FEATURE SCORES
+
+[0.00360147 0.00515399 0.00252056 0.0034902  0.00455654 0.00350605
+ 0.00485621 0.00348835 0.00417717 0.0027638  0.0036844  0.0039073
+ 0.00427879 0.00419716 0.00457893 0.00361624 0.00279573 0.00287905
+ 0.00433816 0.00547657 0.00424397 0.00264029 0.00384836 0.00263901
+ 0.00234437 0.00398533 0.00353144 0.00433254 0.00284691 0.00553469
+ 0.00429744 0.0047785  0.00406831 0.00364037 0.00436653 0.00489185
+ 0.00315718 0.00293663 0.00299533 0.00371526 0.00223093 0.00394253
+ 0.00341059 0.00448871 0.00308784 0.00431447 0.00360783 0.00573148
+ 0.00386812 0.00391589 0.00277885 0.00287074 0.00400831 0.00350331
+ 0.00454229 0.00366528 0.00336278 0.00379604 0.00439416 0.00539432
+ 0.0036201  0.0046049  0.00324092 0.00490187 0.00342114 0.00485851
+ 0.00290252 0.00437178 0.0038539  0.0041632  0.00352645 0.00469988
+ 0.0039418  0.00334141 0.00276816 0.00403682 0.00427966 0.00364834
+ 0.00405598 0.00295694 0.00356037 0.00342749 0.00373286 0.00564312
+ 0.00462367 0.00266879 0.00410252 0.00338913 0.00304546 0.00403779
+ 0.00425848 0.0028121  0.00309658 0.00307351 0.00486508 0.00371433
+ 0.00487471 0.00310292 0.00440116 0.005505   0.00419648 0.00419575
+ 0.00368496 0.00430728 0.00378638 0.00452119 0.00384221 0.00422406
+ 0.00479629 0.00404096 0.00414133 0.00381573 0.00386947 0.00309382
+ 0.00105157 0.00355381 0.00350314 0.00277017 0.00295239 0.00287828
+ 0.00440183 0.00316734 0.00341657 0.00369015 0.00339032 0.00307398
+ 0.00311857 0.00423816 0.00468829 0.00343591 0.00336644 0.00569626
+ 0.00478553 0.00308104 0.00384272 0.00388918 0.0034585  0.00399272
+ 0.00234315 0.00375347 0.00342    0.00435193 0.00388745 0.0044605
+ 0.00425469 0.00462167 0.00387102 0.0040578  0.00375483 0.00407452
+ 0.0049686  0.00428882 0.00344796 0.00427066 0.00465871 0.00372836
+ 0.00354921 0.00332501 0.00543123 0.00475131 0.00390104 0.00312365
+ 0.00339825 0.00414826 0.0060872  0.00420888 0.00563988 0.0047455
+ 0.00407499 0.00407119 0.00309269 0.00368224 0.00402334 0.0043083
+ 0.00438592 0.00514743 0.00327708 0.00320881 0.00257166 0.00362151
+ 0.00322248 0.00515964 0.0045428  0.00407843 0.00586218 0.00489512
+ 0.00459027 0.00402812 0.00368564 0.00327866 0.00378155 0.00593157
+ 0.00459143 0.00418107 0.00433205 0.00347789 0.00386494 0.00441097
+ 0.00448336 0.0050484  0.00285778 0.00441273 0.00203962 0.00293689
+ 0.00350676 0.00390883 0.00410336 0.0038467  0.00224528 0.00358835
+ 0.00305976 0.00345043 0.00299932 0.00383402 0.0040987  0.00364638
+ 0.00443174 0.00354158 0.00492879 0.00333427 0.00358672 0.00396512
+ 0.00319614 0.00305098 0.0029541  0.00440746 0.00424913 0.00499602
+ 0.00448247 0.00409822 0.00542613 0.00487192 0.00469254 0.00510502
+ 0.00400137 0.00386904 0.0029992  0.00445735 0.00323555 0.00418965
+ 0.00475155 0.00301229 0.00317784 0.00370079 0.00477718 0.00301529
+ 0.00413911 0.00489806 0.00368644 0.00349388 0.00362049 0.00419109
+ 0.00433578 0.0032229  0.00398594 0.00528712]
+
+METRICS
+
+Confusion matrix
+
+[[806  11]
+ [  0 741]]
+Predicted    0    1
+Actual             
+0          806   11
+1            0  741
+
+accuracy = 0.993 
+precision = 0.993 
+recall = 0.993 
+f1 = 0.993 
+cohen_kappa = 0.986

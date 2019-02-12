@@ -786,67 +786,67 @@ from sklearn.feature_extraction.text import CountVectorizer
 #
 #
 
-kmers = 8
-df = pd.read_csv('../data/seq/sequence_ds_kmers_{}_v1.csv'.format(kmers))
-print(df.shape)
-print(df.columns)
-
-for i in range(df.shape[0]):
-    if df.loc[i, 'pause_status'] in {'HC True'}:
-        df.loc[i, 'pause_status'] = 1
-    elif df.loc[i, 'pause_status'] in {'LC True'}:
-        df.loc[i, 'pause_status'] = -1
-    else:
-        df.loc[i, 'pause_status'] = 0
-
-
-df_true = df.loc[df['pause_status'] == 1]
-df_false = df.loc[df['pause_status'] == 0]
-df.reset_index(drop=True, inplace=True)
-
-
-df_false = df_false.iloc[np.random.random_integers(0, len(df_false), 4000)]
-df = pd.concat([df_true]*5, ignore_index=True)
-df = pd.concat([df, df_false], ignore_index=True)
-df.reset_index(drop=True, inplace=True)
-
-print(df['pause_status'].value_counts())
-drops = {'Unnamed: 0', 'Unnamed: 0.1', 'pause_seq', 'pause_context', 'energy_spike'}
-keep = []
-for c in df.columns:
-    if c not in drops:
-        keep.append(c)
-
-df = df[keep]
-print(df.shape)
-print(df.columns)
-
-df.to_csv('../data/seq/sequence_ds_kmers_{}_no_spike_selective_v1.csv'.format(kmers))
-
-print('CSV Created!')
-
-df = pd.read_csv('../data/seq/sequence_ds_kmers_{}_no_spike_selective_v1.csv'.format(kmers))
-print(df.columns)
-
-target = np.array(df['pause_status'])
-
-
-print(df['pause_context_kmers'][0])
-
-corpus = np.array(df['pause_context_kmers'])
-print(corpus.shape)
-
-vectorizer = CountVectorizer()
-X = vectorizer.fit_transform(corpus)
-print(len(vectorizer.get_feature_names()))
-
-X_data = X.toarray()
-
-print(X_data.shape)
-print(np.sum(X_data[0]))
-
-np.save('../data/seq/special/X_data_kmers_{}_vectorized_no_spike_selective.npy'.format(kmers), X_data)
-np.save('../data/seq/special/y_data_kmers_{}_vectorized_no_spike_selective.npy'.format(kmers), target)
+# kmers = 8
+# df = pd.read_csv('../data/seq/sequence_ds_kmers_{}_v1.csv'.format(kmers))
+# print(df.shape)
+# print(df.columns)
+#
+# for i in range(df.shape[0]):
+#     if df.loc[i, 'pause_status'] in {'HC True'}:
+#         df.loc[i, 'pause_status'] = 1
+#     elif df.loc[i, 'pause_status'] in {'LC True'}:
+#         df.loc[i, 'pause_status'] = -1
+#     else:
+#         df.loc[i, 'pause_status'] = 0
+#
+#
+# df_true = df.loc[df['pause_status'] == 1]
+# df_false = df.loc[df['pause_status'] == 0]
+# df.reset_index(drop=True, inplace=True)
+#
+#
+# df_false = df_false.iloc[np.random.random_integers(0, len(df_false), 4000)]
+# df = pd.concat([df_true]*5, ignore_index=True)
+# df = pd.concat([df, df_false], ignore_index=True)
+# df.reset_index(drop=True, inplace=True)
+#
+# print(df['pause_status'].value_counts())
+# drops = {'Unnamed: 0', 'Unnamed: 0.1', 'pause_seq', 'pause_context', 'energy_spike'}
+# keep = []
+# for c in df.columns:
+#     if c not in drops:
+#         keep.append(c)
+#
+# df = df[keep]
+# print(df.shape)
+# print(df.columns)
+#
+# df.to_csv('../data/seq/sequence_ds_kmers_{}_no_spike_selective_v1.csv'.format(kmers))
+#
+# print('CSV Created!')
+#
+# df = pd.read_csv('../data/seq/sequence_ds_kmers_{}_no_spike_selective_v1.csv'.format(kmers))
+# print(df.columns)
+#
+# target = np.array(df['pause_status'])
+#
+#
+# print(df['pause_context_kmers'][0])
+#
+# corpus = np.array(df['pause_context_kmers'])
+# print(corpus.shape)
+#
+# vectorizer = CountVectorizer()
+# X = vectorizer.fit_transform(corpus)
+# print(len(vectorizer.get_feature_names()))
+#
+# X_data = X.toarray()
+#
+# print(X_data.shape)
+# print(np.sum(X_data[0]))
+#
+# np.save('../data/seq/special/X_data_kmers_{}_vectorized_no_spike_selective.npy'.format(kmers), X_data)
+# np.save('../data/seq/special/y_data_kmers_{}_vectorized_no_spike_selective.npy'.format(kmers), target)
 
 #
 #

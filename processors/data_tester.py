@@ -106,28 +106,35 @@ from sklearn.feature_extraction.text import CountVectorizer
 # vocab = {}
 
 
-df = pd.read_csv('../data/seq/sequence_ds_kmers_6_no_spike_selective_v1.csv')
-print(df.columns)
+# df = pd.read_csv('../data/seq/sequence_ds_kmers_6_no_spike_selective_v1.csv')
+# print(df.columns)
+#
+# target = np.array(df['pause_status'])
+#
+#
+# print(df['pause_context_kmers'][0])
+#
+# corpus = np.array(df['pause_context_kmers'])
+# print(corpus.shape)
+#
+# vectorizer = CountVectorizer()
+# X = vectorizer.fit_transform(corpus)
+# print(len(vectorizer.get_feature_names()))
+#
+# X_data = X.toarray()
+#
+# print(X_data.shape)
+# print(np.sum(X_data[0]))
+#
+# np.save('../data/seq/special/X_data_kmers_6_vectorized_no_spike_selective.npy', X_data)
+# np.save('../data/seq/special/y_data_kmers_6_vectorized_no_spike_selective.npy', target)
 
-target = np.array(df['pause_status'])
 
+# X = np.load('../data/seq/special/X_data_kmers_4_vectorized_no_spike_selective.npy')
+# y = np.load('../data/seq/special/y_data_kmers_4_vectorized_no_spike_selective.npy')
+# print(X.shape)
+# print(y.shape)
 
-print(df['pause_context_kmers'][0])
-
-corpus = np.array(df['pause_context_kmers'])
-print(corpus.shape)
-
-vectorizer = CountVectorizer()
-X = vectorizer.fit_transform(corpus)
-print(len(vectorizer.get_feature_names()))
-
-X_data = X.toarray()
-
-print(X_data.shape)
-print(np.sum(X_data[0]))
-
-np.save('../data/seq/special/X_data_kmers_6_vectorized_no_spike_selective.npy', X_data)
-np.save('../data/seq/special/y_data_kmers_6_vectorized_no_spike_selective.npy', target)
-
-
-
+X = np.load('../data/seq/special/X_data_kmers_6_vectorized_no_spike_selective.npy')
+print(X.shape)
+print(X[0])

@@ -1,0 +1,697 @@
+Index(['Unnamed: 0', 'pause_status', 'position', 'pause_G', 'pause_C',
+       'context_G', 'context_C', 'gene', 'start_dist_rel', 'end_dist_rel',
+       'gene_len', 'ref_base_A', 'ref_base_C', 'ref_base_G', 'ref_base_T',
+       'trans_base_A', 'trans_base_C', 'trans_base_G', 'trans_base_T'],
+      dtype='object')
+Index(['pause_status', 'position', 'pause_G', 'pause_C', 'context_G',
+       'context_C', 'gene', 'start_dist_rel', 'end_dist_rel', 'gene_len',
+       'ref_base_A', 'ref_base_C', 'ref_base_G', 'ref_base_T', 'trans_base_A',
+       'trans_base_C', 'trans_base_G', 'trans_base_T'],
+      dtype='object')
+8
+12
+11
+16
+9
+14
+13
+10
+2
+4
+0
+6
+7
+15
+3
+1
+
+FEATURES SELECTKBEST PARAMS
+
+['gene_len', 'ref_base_T', 'ref_base_G', 'trans_base_T', 'ref_base_A', 'trans_base_C', 'trans_base_A', 'ref_base_C', 'pause_C', 'context_C', 'position', 'start_dist_rel', 'end_dist_rel', 'trans_base_G', 'context_G', 'pause_G']
+
+FEATURES SELECTKBEST SCORES
+
+[55.18983154545005, 18.126120478746113, 12.53161782895101, 11.166928380028734, 5.83868268666578, 3.440434021525543, 3.2416484983165716, 2.229669696622637, 1.0916392266607504, 1.0916392157692882, 0.708069854206974, 0.23128571159504283, 0.2312857115950422, 0.08461163996144426, 0.027062574473532337, 0.027062570903871742, 0.0]
+
+############################## EXTRA TREES CLASSIFIER ##############################
+
+Fitting 10 folds for each of 1 candidates, totalling 10 fits
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+
+CV RESULTS
+
+{'mean_fit_time': array([0.15797601]), 'std_fit_time': array([0.00664391]), 'mean_score_time': array([0.00952871]), 'std_score_time': array([0.00100916]), 'param_max_depth': masked_array(data=[30],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_min_samples_leaf': masked_array(data=[0.0001],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_min_samples_split': masked_array(data=[0.01],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_n_estimators': masked_array(data=[50],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_verbose': masked_array(data=[2],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_depth': 30, 'min_samples_leaf': 0.0001, 'min_samples_split': 0.01, 'n_estimators': 50, 'verbose': 2}], 'split0_test_score': array([0.72333333]), 'split1_test_score': array([0.72569444]), 'split2_test_score': array([0.70223752]), 'split3_test_score': array([0.7076412]), 'split4_test_score': array([0.71404399]), 'split5_test_score': array([0.73178808]), 'split6_test_score': array([0.7559322]), 'split7_test_score': array([0.75974026]), 'split8_test_score': array([0.74304419]), 'split9_test_score': array([0.7042735]), 'mean_test_score': array([0.72677215]), 'std_test_score': array([0.01968513]), 'rank_test_score': array([1], dtype=int32), 'split0_train_score': array([0.8180288]), 'split1_train_score': array([0.84146115]), 'split2_train_score': array([0.83134773]), 'split3_train_score': array([0.82792087]), 'split4_train_score': array([0.83200593]), 'split5_train_score': array([0.82965709]), 'split6_train_score': array([0.83150659]), 'split7_train_score': array([0.83095194]), 'split8_train_score': array([0.83612663]), 'split9_train_score': array([0.82409998]), 'mean_train_score': array([0.83031067]), 'std_train_score': array([0.00599587])}
+
+BEST PARAMETERS
+
+{'max_depth': 30, 'min_samples_leaf': 0.0001, 'min_samples_split': 0.01, 'n_estimators': 50, 'verbose': 2}
+
+Best Extratrees Model: ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=30, max_features='auto', max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=0.0001, min_samples_split=0.01,
+           min_weight_fraction_leaf=0.0, n_estimators=50, n_jobs=None,
+           oob_score=False, random_state=None, verbose=2, warm_start=False)
+
+Best Score: 0.7267721475637436
+
+ESTIMATORS
+
+[ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=551528776,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=1570011191,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=1869898972,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=1950716142,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=1586758988,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=546115817,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=1417252853,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=213513664,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=47000762,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=1202721055,
+          splitter='random')]
+
+FEATURE SCORES
+
+[0.16062501 0.09089429 0.0869062  0.0846337  0.08981005 0.
+ 0.13118782 0.13029442 0.13761929 0.0100922  0.01035721 0.00944994
+ 0.00561899 0.0172585  0.01070506 0.01607171 0.00847561]
+
+METRICS
+
+Confusion matrix
+
+[[769  39]
+ [  0 750]]
+Predicted    0    1
+Actual             
+0          769   39
+1            0  750
+
+accuracy = 0.975 
+precision = 0.976 
+recall = 0.975 
+f1 = 0.975 
+cohen_kappa = 0.950

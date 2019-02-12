@@ -1,0 +1,772 @@
+(7790, 256)
+(7790,)
+
+FEATURES SELECTKBEST SCORES
+
+[5.37764407e-02 8.29316415e-02 4.00442111e+00 8.64840776e-01
+ 1.41048525e+00 3.33400125e-01 2.18729493e+00 5.06147673e+00
+ 1.38541085e+01 1.09312830e+00 1.64146254e+00 5.71238213e+00
+ 9.27088866e-02 8.80466771e-01 3.18547017e+00 2.57624323e-02
+ 4.57313695e+00 9.03022209e+00 1.54609967e+00 2.60071692e-01
+ 4.41760231e+00 3.45046285e+00 1.16716616e+00 2.66045075e-01
+ 9.72877527e+00 5.10371899e-01 1.03853438e+01 4.80846080e-03
+ 1.79601772e-01 6.79042819e+00 1.97600704e+00 3.58646972e-01
+ 2.50764911e+01 5.00073361e-02 8.30348020e-01 7.62054964e-01
+ 2.17246353e-02 6.69830973e+00 1.45451571e+01 9.96067560e+00
+ 1.57932207e+00 3.06225769e-01 4.07597531e-01 2.91434092e+00
+ 4.38637294e+00 7.82128688e-01 4.36462712e-01 1.15044501e+00
+ 8.37480307e-02 2.64986609e+00 2.18876693e-01 1.16391025e+00
+ 1.96855992e+00 7.64584045e-02 8.58378164e-01 7.03362530e-01
+ 3.18309703e+00 7.41765381e-03 2.94197647e+00 6.29750689e-01
+ 2.71765051e-02 2.10052311e+00 1.10977824e+01 4.65297491e+00
+ 1.13529195e-02 2.43105433e+00 4.73679355e+00 3.71637928e-01
+ 1.57998501e+01 2.41023863e+00 5.17770484e+00 1.06284016e+01
+ 9.30523995e-02 5.08735413e-01 9.03531277e-02 8.09584804e+00
+ 2.42581356e+00 5.04713453e+00 4.37645201e-01 5.53194241e+00
+ 2.78643926e-02 4.95520066e+00 9.37623990e-01 3.96212037e+00
+ 7.59645079e-01 2.59293135e-01 1.43894972e+01 1.72838322e+01
+ 2.67635377e+00 1.12540321e+01 4.13405862e-01 3.03660730e-01
+ 4.10297602e-01 1.83480990e-01 6.51748542e-01 3.77116287e+00
+ 1.13052552e+01 1.45666719e-04 5.46654433e-01 4.07662751e+00
+ 1.04632996e+00 2.01159767e+00 4.01773029e+00 6.68344210e+00
+ 1.08012943e+01 1.35719595e+00 2.71772564e+00 3.75559228e-01
+ 3.03311020e+00 7.19071118e+00 5.16898035e+00 1.36780087e+01
+ 6.36655992e+00 2.35612603e+00 9.01517262e-01 1.52863013e-01
+ 1.41967502e+01 2.44830019e+00 1.91122921e-01 4.66417078e-01
+ 5.75823767e+00 1.03961009e+00 5.18408108e+00 3.51217335e-01
+ 1.34019517e+00 1.96328845e+00 1.38735947e+00 2.59682800e+00
+ 9.46183103e-01 9.31671452e+00 1.19676488e+01 1.11473051e+01
+ 7.26844045e-01 1.68919341e+01 2.97803343e-01 1.65681600e+00
+ 6.84311436e+00 7.13741413e+00 6.85906403e-01 1.56362095e+00
+ 1.29733723e+01 2.05944891e-01 4.99068716e+00 1.28218842e+00
+ 4.10226644e-02 1.10566910e+00 8.10019499e-04 1.25101246e+00
+ 9.99484918e-02 3.66918437e+00 7.19399733e-01 1.83099622e-01
+ 1.03919307e-02 2.16356602e+00 6.15313244e+00 4.00940434e-01
+ 8.91025850e+00 4.04875790e+00 1.18672323e+01 7.79088030e+00
+ 4.18845476e+00 7.44761199e-03 8.53501525e+00 6.78044135e+00
+ 1.80627567e+01 8.29618168e+00 3.01400468e+01 9.49918762e-01
+ 7.62928885e-01 4.11966040e+01 2.18404654e+00 2.03727643e-01
+ 1.50334130e-01 2.33747495e+00 8.48907023e+00 4.72640913e+00
+ 3.91936784e+00 4.27641845e+00 1.85726021e+00 1.02994262e+00
+ 6.10659214e-02 7.07890882e+00 3.37667712e+00 3.78699924e+00
+ 1.10267929e-01 1.50282248e+00 3.68454108e+01 6.55430492e-02
+ 7.54518585e-01 4.66149866e+00 1.02199082e+00 1.67089446e-02
+ 3.55539616e+00 1.70629189e+00 1.00467418e-02 2.71538451e-01
+ 8.38746431e-01 1.13141397e+00 1.46386973e+00 1.37050808e-02
+ 1.46843789e+00 7.95026029e-01 8.58069614e+00 2.66668116e-02
+ 6.49377848e+00 2.55629318e-01 1.58405961e+01 1.11552206e+01
+ 3.43224072e+00 1.27924789e+00 5.20056779e-01 3.95467560e-02
+ 3.92051286e+00 1.91031069e-01 1.03483216e-02 4.10553299e+00
+ 1.37005727e-01 1.64876665e+01 3.58078078e-01 5.56805350e+00
+ 4.49356062e-02 7.80890435e-01 2.49549176e-01 1.48158713e-02
+ 1.15503237e+00 1.22245702e+00 4.03705296e+00 1.17667000e+01
+ 2.95370198e+00 2.09070479e+00 1.81183943e+00 7.97935372e+00
+ 9.09636494e+00 1.55005061e+01 8.59312883e+00 5.74017655e+00
+ 1.12917718e+01 5.77028639e-01 3.80279346e+00 5.12714823e-01
+ 4.51431586e-02 1.98927203e+00 2.76463785e-01 9.51771344e+00
+ 7.26916179e-01 5.85878700e+00 1.95251135e-01 3.07037576e+00
+ 1.04461636e-01 7.37445868e-01 9.03567626e+00 1.18550792e-01
+ 1.98873376e+01 9.32805962e-03 8.56719851e-04 1.30529952e+00]
+
+############################## EXTRA TREES CLASSIFIER ##############################
+
+Fitting 10 folds for each of 1 candidates, totalling 10 fits
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+building tree 1 of 50
+building tree 2 of 50
+building tree 3 of 50
+building tree 4 of 50
+building tree 5 of 50
+building tree 6 of 50
+building tree 7 of 50
+building tree 8 of 50
+building tree 9 of 50
+building tree 10 of 50
+building tree 11 of 50
+building tree 12 of 50
+building tree 13 of 50
+building tree 14 of 50
+building tree 15 of 50
+building tree 16 of 50
+building tree 17 of 50
+building tree 18 of 50
+building tree 19 of 50
+building tree 20 of 50
+building tree 21 of 50
+building tree 22 of 50
+building tree 23 of 50
+building tree 24 of 50
+building tree 25 of 50
+building tree 26 of 50
+building tree 27 of 50
+building tree 28 of 50
+building tree 29 of 50
+building tree 30 of 50
+building tree 31 of 50
+building tree 32 of 50
+building tree 33 of 50
+building tree 34 of 50
+building tree 35 of 50
+building tree 36 of 50
+building tree 37 of 50
+building tree 38 of 50
+building tree 39 of 50
+building tree 40 of 50
+building tree 41 of 50
+building tree 42 of 50
+building tree 43 of 50
+building tree 44 of 50
+building tree 45 of 50
+building tree 46 of 50
+building tree 47 of 50
+building tree 48 of 50
+building tree 49 of 50
+building tree 50 of 50
+
+CV RESULTS
+
+{'mean_fit_time': array([0.64760702]), 'std_fit_time': array([0.04661356]), 'mean_score_time': array([0.01245427]), 'std_score_time': array([0.00450473]), 'param_max_depth': masked_array(data=[30],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_min_samples_leaf': masked_array(data=[0.0001],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_min_samples_split': masked_array(data=[0.01],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_n_estimators': masked_array(data=[50],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_verbose': masked_array(data=[2],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_depth': 30, 'min_samples_leaf': 0.0001, 'min_samples_split': 0.01, 'n_estimators': 50, 'verbose': 2}], 'split0_test_score': array([0.96470588]), 'split1_test_score': array([0.95932203]), 'split2_test_score': array([0.95142379]), 'split3_test_score': array([0.95798319]), 'split4_test_score': array([0.9785124]), 'split5_test_score': array([0.9544688]), 'split6_test_score': array([0.92943201]), 'split7_test_score': array([0.95076401]), 'split8_test_score': array([0.93006993]), 'split9_test_score': array([0.95076401]), 'mean_test_score': array([0.95275662]), 'std_test_score': array([0.01395666]), 'rank_test_score': array([1], dtype=int32), 'split0_train_score': array([0.99393494]), 'split1_train_score': array([0.99300957]), 'split2_train_score': array([0.99355551]), 'split3_train_score': array([0.99504132]), 'split4_train_score': array([0.99522585]), 'split5_train_score': array([0.99190581]), 'split6_train_score': array([0.99151292]), 'split7_train_score': array([0.9920854]), 'split8_train_score': array([0.98966408]), 'split9_train_score': array([0.9907885]), 'mean_train_score': array([0.99267239]), 'std_train_score': array([0.00171742])}
+
+BEST PARAMETERS
+
+{'max_depth': 30, 'min_samples_leaf': 0.0001, 'min_samples_split': 0.01, 'n_estimators': 50, 'verbose': 2}
+
+Best Extratrees Model: ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=30, max_features='auto', max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=0.0001, min_samples_split=0.01,
+           min_weight_fraction_leaf=0.0, n_estimators=50, n_jobs=None,
+           oob_score=False, random_state=None, verbose=2, warm_start=False)
+
+Best Score: 0.9527566174109493
+
+ESTIMATORS
+
+[ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=1646353540,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=1035602724,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=2008208700,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=1181841963,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=1218012095,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=343517219,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=130310650,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=2089780998,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=980871435,
+          splitter='random'), ExtraTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+          max_features='auto', max_leaf_nodes=None,
+          min_impurity_decrease=0.0, min_impurity_split=None,
+          min_samples_leaf=1, min_samples_split=2,
+          min_weight_fraction_leaf=0.0, random_state=1030408117,
+          splitter='random')]
+
+FEATURE SCORES
+
+[0.00315061 0.00458764 0.00360333 0.00433728 0.00483791 0.00343058
+ 0.00365909 0.00466114 0.00415665 0.00510038 0.00468698 0.00280231
+ 0.00347003 0.00388748 0.00483191 0.00440954 0.00242079 0.00502313
+ 0.00471175 0.00378649 0.00408017 0.00371578 0.00402642 0.00314469
+ 0.0041517  0.00397876 0.00453335 0.00507088 0.00191209 0.00462045
+ 0.00371657 0.00415478 0.00377898 0.00372644 0.00322294 0.00432728
+ 0.00377657 0.00352171 0.00353266 0.00406782 0.00298605 0.00339377
+ 0.00389361 0.00332359 0.00343221 0.0031841  0.0035928  0.00414229
+ 0.00369175 0.00349589 0.0035972  0.00280683 0.00468308 0.0047362
+ 0.00425171 0.00600846 0.00373741 0.00465425 0.00288482 0.00309064
+ 0.00373874 0.00339908 0.00362663 0.00442825 0.00433119 0.0037861
+ 0.00324582 0.00462522 0.00424834 0.00434078 0.0036551  0.00339658
+ 0.00304939 0.00390819 0.00392309 0.00310511 0.00366832 0.00445288
+ 0.00354715 0.00351014 0.00320992 0.00479463 0.00272448 0.00449854
+ 0.00456382 0.00334855 0.00404521 0.00494359 0.00334897 0.0043219
+ 0.00408926 0.00295315 0.00368086 0.00286844 0.0025832  0.00344921
+ 0.00306361 0.00275702 0.00408976 0.00468627 0.00388976 0.00395362
+ 0.00275039 0.0043646  0.00304073 0.00386703 0.00356181 0.0043275
+ 0.00396949 0.00386148 0.00297777 0.00386674 0.0031123  0.00350011
+ 0.00108224 0.00452695 0.00354891 0.00407285 0.0037728  0.00432915
+ 0.00408173 0.00510474 0.00392215 0.00460357 0.00337803 0.00280625
+ 0.0035549  0.00436572 0.00418687 0.00247732 0.00313056 0.00499271
+ 0.00376507 0.00376273 0.00308658 0.00366516 0.00187673 0.0053521
+ 0.0035826  0.00369746 0.00469629 0.00228754 0.00364106 0.00384976
+ 0.00576855 0.00478574 0.00305303 0.00440051 0.00417779 0.00473673
+ 0.00482609 0.00406565 0.00514627 0.006204   0.00476373 0.00356146
+ 0.00347438 0.00501261 0.00312029 0.00375565 0.00340958 0.00407317
+ 0.00328081 0.00454049 0.00391617 0.00391149 0.00546017 0.00359209
+ 0.00462889 0.0045172  0.00356476 0.00373715 0.00416878 0.00427331
+ 0.00379827 0.00371756 0.00535983 0.00359259 0.00329543 0.00403323
+ 0.00288068 0.00397907 0.00433636 0.00346407 0.00470823 0.00372709
+ 0.00424686 0.00407254 0.00375348 0.00391034 0.00445981 0.00277555
+ 0.00436184 0.00354266 0.00355751 0.00403233 0.00342833 0.00216623
+ 0.00419974 0.00277482 0.00446795 0.00321499 0.00304911 0.00401289
+ 0.00352294 0.0040476  0.00497013 0.00435115 0.00394917 0.00404093
+ 0.00425985 0.00318534 0.00504212 0.00323655 0.00465429 0.00381797
+ 0.00385886 0.00371019 0.00344255 0.00416142 0.00264999 0.00473906
+ 0.00455091 0.00246846 0.00480046 0.00396718 0.00439292 0.00597345
+ 0.0030326  0.00402542 0.00551913 0.0033256  0.00462133 0.0048025
+ 0.00392099 0.00526262 0.00512406 0.00441706 0.00445737 0.00290004
+ 0.00564364 0.00209404 0.00372367 0.00514276 0.00379219 0.0039921
+ 0.00373072 0.00471244 0.0020495  0.00359584 0.0038288  0.00403668
+ 0.00461451 0.00485662 0.00297015 0.00471615]
+
+METRICS
+
+Confusion matrix
+
+[[786   9]
+ [  0 763]]
+Predicted    0    1
+Actual             
+0          786    9
+1            0  763
+
+accuracy = 0.994 
+precision = 0.994 
+recall = 0.994 
+f1 = 0.994 
+cohen_kappa = 0.988

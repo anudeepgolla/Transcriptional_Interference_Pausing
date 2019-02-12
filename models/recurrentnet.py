@@ -1,6 +1,7 @@
 # LSTM for sequence classification in the IMDB dataset
 
 import numpy
+import sys
 from keras.datasets import imdb
 from keras.models import Sequential
 from keras.layers import Dense
@@ -15,16 +16,60 @@ import os
 
 os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
+run_type = str(sys.argv[1])
+
+if run_type == 'ordinal':
+    input_dim = 4
+    input_len = 218
+    embedding_dim = 64
+    X_load_file = '../data/seq/special/X_data_ordinal_no_spike_selective.npy'
+    y_load_file = '../data/seq/special/y_data_ordinal_no_spike_selective.npy'
+    eps = 10
+    bsz = 64
+    log_file = '../logs/recurrent/ordinal'
+
+if run_type == 'onehot':
+    input_dim = 2
+    input_len = 218*4
+    embedding_dim = 64
+    X_load_file = '../data/seq/special/X_data_onehot_flat_no_spike_selective.npy'
+    y_load_file = '../data/seq/special/y_data_onehot_flat_no_spike_selective.npy'
+    eps = 10
+    bsz = 64
+    log_file = '../logs/recurrent/onehot_flat'
+
+if run_type == 'kmers_4':
+    input_dim = 219-4
+    input_len = 4**4
+    embedding_dim = 64
+    X_load_file = '../data/seq/special/X_data_kmers_4_vectorized_no_spike_selective.npy'
+    y_load_file = '../data/seq/special/y_data_kmers_4_vectorized_no_spike_selective.npy'
+    eps = 10
+    bsz = 64
+    log_file = '../logs/recurrent/kmers_4.log'
+
+if run_type == 'kmers_6':
+    input_dim = 219-6
+    input_len = 4**6
+    embedding_dim = 64
+    X_load_file = '../data/seq/special/X_data_kmers_6_vectorized_no_spike_selective.npy'
+    y_load_file = '../data/seq/special/y_data_kmers_6_vectorized_no_spike_selective.npy'
+    eps = 10
+    bsz = 64
+    log_file = '../logs/recurrent/kmers_6.log'
+
+if run_type == 'kmers_8':
+    input_dim = 219-8
+    input_len = 4**8
+    embedding_dim = 64
+    X_load_file = '../data/seq/special/X_data_kmers_8_vectorized_no_spike_selective.npy'
+    y_load_file = '../data/seq/special/y_data_kmers_8_vectorized_no_spike_selective.npy'
+    eps = 10
+    bsz = 64
+    log_file = '../logs/recurrent/kmers_8.log'
 
 
-input_dim = 4
-input_len = 218
-embedding_dim = 64
-X_load_file = '../data/seq/special/X_data_ordinal_no_spike_selective.npy'
-y_load_file = '../data/seq/special/y_data_ordinal_no_spike_selective.npy'
-eps = 3
-bsz = 64
-
+sys.stdout = open(log_file, 'w')
 X_train = np.load(X_load_file)
 y_train = np.load(y_load_file)
 print(X_train.shape)
