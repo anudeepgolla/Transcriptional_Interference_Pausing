@@ -1,36 +1,48 @@
 import numpy as np
 
+"""
 
-# X = np.load('../data/seq/special/X_data_onehot_no_spike_selective.npy')
-# print(X.shape)
-# print(X[0].shape)
-# X_new = []
-# for i in X:
-#     X_new.append(np.transpose(i))
-#
-# X_new = np.array(X_new)
-# print(X_new.shape)
-#
-# np.save('../data/seq/special/X_data_onehot_transpose_no_spike_selective.npy', X_new)
+sequence_data_processor.py : transpose or flattens onehot seq data into 1D inputs
 
-# i did transpose not flat
+"""
 
+def transpose():
+    # load data
+    X = np.load('../data/seq/special/X_data_onehot_no_spike_selective.npy')
+    print(X.shape)
+    print(X[0].shape)
 
+    # transpose each submatrix individually and append
+    X_new = []
+    for i in X:
+        X_new.append(np.transpose(i))
 
-# X = np.load('../data/seq/special/X_data_onehot_no_spike_selective.npy')
-# print(X.shape)
-# # print(X[0])
-#
-# # print(X[0].reshape((218*4,)))
-#
-# print(X.reshape(7790, 218*4).shape)
-#
-# X = X.reshape(7790, 218*4)
-#
-# np.save('../data/seq/special/X_data_onehot_flat_no_spike_selective.npy', X)
+    # create new numpy array
+    X_new = np.array(X_new)
+    print(X_new.shape)
+
+    # save
+    np.save('../data/seq/special/X_data_onehot_transpose_no_spike_selective.npy', X_new)
 
 
-# y = np.load('../data/seq/special/y_data_onehot_no_spike_selective.npy')
-# np.save('../data/seq/special/y_data_onehot_flat_no_spike_selective.npy', y)
+
+
+def flatten():
+    # load
+    X = np.load('../data/seq/special/X_data_onehot_no_spike_selective.npy')
+    print(X.shape)
+    # print(X[0])
+
+    # print(X[0].reshape((218*4,)))
+
+    # reshape into flattened size
+    print(X.reshape(7790, 218*4).shape)
+    X = X.reshape(7790, 218*4)
+
+    # save
+    np.save('../data/seq/special/X_data_onehot_flat_no_spike_selective.npy', X)
+
+
+
 
 

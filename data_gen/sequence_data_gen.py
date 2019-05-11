@@ -6,6 +6,16 @@ from Bio import Entrez
 import pandas as pd
 import numpy as np
 
+
+
+"""
+
+sequence_data_gen.py : randomly select a bunch of bps in genome and build sequence dataset from these bps
+
+"""
+
+
+
 Entrez.email = 'anudeepgolla3@gmail.com'
 handle = "sequence.gb"
 print(handle)
@@ -62,26 +72,34 @@ mutcomp=complement.tomutable() # convert complement into mutable object
 # print('Data Saved!')
 
 
+# load in csv data
 df = pd.read_csv('data/genomic_data_set_v2.csv')
+# select specific parameter columns
 df = df[['position', 'pause_status', 'pause_seq', 'pause_context']]
+# set all energy spike values to 1 for all samples
 df['energy_spike'] = 1
 print(df.head(5))
 print(df.shape)
 
 # print(len(df['pause_seq'][0]), len(df['pause_context'][0]))
+# since some values were FALSE string or false boolean value - change all to string 'false'
 for i in range(df.shape[0]):
     if df.loc[i, 'pause_status'] not in {'HC True', 'LC True'}:
         df.loc[i, 'pause_status'] = 'false'
 
 print(df['pause_status'][-10:])
 
+# randomly select 35000 bps between 110 and 4641500 (len of genome)
 randinds = np.random.randint(110, 4641500, 35000)
 print(randinds[:10])
 n = len(randinds)
 print(n)
 
 ct = 0
+# iterate through random selections
 for ri in randinds:
+    # build new entry for these values
+    # include the columns seen as keys in the dictionary below
     df = df.append({'position': ri,
                             'pause_status': 'false',
                             'pause_seq': mutgen[ri-16: ri],
@@ -89,11 +107,13 @@ for ri in randinds:
                             'energy_spike': 0},  ignore_index=True)
     ct += 1
 
+    # print progress
     if ct % 100 == 0:
         print('Step {:5}/{:5} = {:2}%'.format(ct, n, (ct*100)//n))
 
 
 print(df.shape)
 
+# load data into csv format
 df.to_csv(('data/sequence_ds_v1.csv'))
 print('DataSaved!')

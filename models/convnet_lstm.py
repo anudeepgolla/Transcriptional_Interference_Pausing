@@ -15,6 +15,21 @@ import os
 
 run_type = str(sys.argv[1])
 
+
+# set:
+#   input_dim: depth of input sample
+#   input_len: width of input sample
+#   embedding_dim: what embedding space you want to encode in
+#   X_load_file, y_load_file: file paths for data loading
+#   eps: epochs - number of times to go through data during training
+#   bsz: batch size: how many samples to look at every time you make adjustments to the model
+#   log_file: file path to store output
+#   filters = complexity of convolution alyer
+#   kernel_size = have close together to search (usually fixed),  found by variying until optimal found
+#   hidden_dims = number of nodes in a midle neural layer
+
+
+
 if run_type == 'ordinal':
     input_dim = 4
     input_len = 218
@@ -114,29 +129,38 @@ def display_metrics(y_test, y_pred):
     print("\naccuracy = %.3f \nprecision = %.3f \nrecall = %.3f \nf1 = %.3f \ncohen_kappa = %.3f" % (
     accuracy, precision, recall, f1, cohen_kappa))
 
-
+# model instance
 model = Sequential()
+# add embedding layer
 model.add(Embedding(input_dim, embedding_dim, input_length=input_len))
+# add dropout ( choose random nodes to stop learning )
 model.add(Dropout(0.25))
+# add convolution layer
 model.add(Conv1D(filters,
                  kernel_size,
                  padding='valid',
                  activation='relu',
                  strides=1))
+# add pooling layer
 model.add(MaxPooling1D(pool_size=pool_size))
+# add recurrent LSTM layer
 model.add(LSTM(lstm_output_size))
+# add regular neural layer with 1 node, sigmoid activation
 model.add(Dense(1))
 model.add(Activation('sigmoid'))
 
+# loss is crossentropy, adam opt, learn on accuracy
 model.compile(loss='binary_crossentropy',
               optimizer='adam',
               metrics=['accuracy'])
 
 print('Train...')
+# train
 model.fit(X_train, y_train,
           batch_size=bsz,
           epochs=epochs,
           validation_data=(X_test, y_test))
+# get stats
 score, acc = model.evaluate(X_test, y_test, batch_size=bsz)
 print('Test score:', score)
 print('Test accuracy:', acc)

@@ -6,6 +6,15 @@ from Bio import Entrez
 import pandas as pd
 import numpy as np
 
+
+"""
+
+genome_parser.py : builds observational parametric data from genome and pause sites found in existing datasets 
+
+"""
+
+
+
 Entrez.email = 'anudeepgolla3@gmail.com'
 handle = "sequence.gb"
 print(handle)
@@ -76,6 +85,7 @@ Nolans Parse
 # print(predicted , " total possibilities in sense strand given random DNA sequences")
 
 
+# column parameters that we care about
 col_params = ['pause_status', 'position', 'ref_base', 'pause_seq', 'pause _G', 'pause_C',
               'pause_context', 'context_G', 'context_C', 'gene', 'gene_start', 'gene_end',
               'start_dist_abs', 'start_dist_rel', 'end_dist_abs', 'end_dist_rel',
@@ -83,14 +93,20 @@ col_params = ['pause_status', 'position', 'ref_base', 'pause_seq', 'pause _G', '
 
 # print(len(col_params))
 
+# get dataframe and select on the columns in col_params by name
 df = pd.DataFrame(columns=col_params)
 
 pos_arr = np.array([])
+# different datasets file paths
 datas = ['true_pie_hi_data.csv', 'true_pie_low_data.csv', 'false_pie_data.csv']
 for ds in datas:
+    # load data
     df_ = pd.read_csv('data/' + ds)
+    # get the positions in that data set
     arr_ = np.array(df_['Position'])
+    # get transpose of the column vector so we can append
     arr_ = np.reshape(arr_, (-1, arr_.shape[0]))
+    # make a total list of positions from all datasets in pos_arr
     pos_arr = np.append(pos_arr, arr_)
     # print(len(arr_[0]))
     # print(len(arr_), arr_[-1])
@@ -102,11 +118,12 @@ print(len(mutgen))
 
 
 
-
+# this method builds the parameters list by type of parameter for each position found in the datasets
 def data_parse_loader(genome, positions, dataf):
     print('GENOME: ', len(genome))
     # print(np.isnan(positions[758]))
 
+    # go through all positions in positions
     for pos_i in range(len(positions)):
         if not np.isnan(positions[pos_i]) and (positions[pos_i] + 109) <= 4641652:
 
@@ -114,9 +131,13 @@ def data_parse_loader(genome, positions, dataf):
             #     print(pos_i, type(positions[pos_i]))
 
             # print(positions[pos_i], pos_i)
+
+            # get the associated index
             pos = int(positions[pos_i])
             pos_res = []
 
+            # depending on where in positions array the position is from, since we appended
+            # them together we can tell by index which pause site type it is
             if pos_i<759:
                 pos_res.append('HC True')
             elif pos_i<14505:
@@ -124,20 +145,26 @@ def data_parse_loader(genome, positions, dataf):
             else:
                 pos_res.append('False')
 
+            # add index
             pos_res.append(pos)
             # print(pos)
+
+            # add previous bp
             pos_res.append(genome[pos-1])
+            # get pause sequence
             pos_res.append(genome[pos-17:pos-1])
 
             pauseg = 0
             pausec = 0
 
+            # count C, G
             for i in range(17):
                 if genome[pos-17+i] == 'G':
                     pauseg += 1
                 if genome[pos-17+i] == 'C':
                     pausec += 1
 
+            # add pause g, pause c, and context sequence
             pos_res.append(pauseg/17)
             pos_res.append(pausec/17)
             pos_res.append(genome[pos - 110:pos + 108])
@@ -145,15 +172,18 @@ def data_parse_loader(genome, positions, dataf):
             contextg = 0
             contextc = 0
 
+            # count g, c
             for i in range(219):
                 if genome[pos-110+i] == 'G':
                     contextg += 1
                 if genome[pos-110+i] == 'C':
                     contextc += 1
 
+            # add context g, context c
             pos_res.append(pauseg / 219)
             pos_res.append(pausec / 219)
 
+            # get gene data
             for feature in record.features:  # loop each position through whole genome
                 # In this particular case I'm interested in focusing on cds, but
                 # in others, I may be interested in other feature types?
@@ -168,6 +198,7 @@ def data_parse_loader(genome, positions, dataf):
                         pos_res.append((feature.location.nofuzzy_end - pos) / (feature.location.nofuzzy_end - feature.location.nofuzzy_start))
                         break
 
+            # add nan if pause site not in gene
             if (len(pos_res)==9):
                 pos_res.append(np.nan)
                 pos_res.append(np.nan)
@@ -178,18 +209,22 @@ def data_parse_loader(genome, positions, dataf):
                 pos_res.append(np.nan)
 
 
-
+            # get bp after pause site
             pos_res.append(genome[pos+1])
 
             # print(pos_res[16])
 
+            # add data to final dataset
             dataf.loc[pos_i] = pos_res
+
+            # print progress
             if pos_i % 100 == 0:
                 print("Step {}/{}".format(pos_i, 33938))
 
 
-
+# call to gata get method
 data_parse_loader(mutgen, pos_arr, df)
+# loda data into csv file
 df.to_csv('data/genomic_data_set.csv')
 print(df.shape)
 print(df.head(10))

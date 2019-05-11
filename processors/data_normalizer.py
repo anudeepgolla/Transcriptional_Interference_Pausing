@@ -5,6 +5,11 @@ from sklearn import datasets
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.svm import LinearSVC
 
+"""
+
+data_normalizer.py : transform data with data of all types into a dataset that is only numbers for training
+
+"""
 
 # df = pd.read_csv('data/genomic_data_set_v2.csv')
 #
@@ -127,14 +132,20 @@ from sklearn.svm import LinearSVC
 #
 # df.to_csv('data/processed_genomic_data_set_v2.csv')
 
+# load data
 df = pd.read_csv('../data/util/genomic_data_set_v2.csv')
 print(df.head(10))
 
+# remove unneccesary cols
 drop_cols = ['pause_seq', 'pause_context', 'gene_start', 'gene_end', 'start_dist_abs', 'end_dist_abs']
 
+# params that are pure numerical
 num_cols = ['position', 'pause_G', 'pause_C', 'context_G', 'context_C', 'gene_len', 'start_dist_rel', 'end_dist_rel']
+# params that are pure numerical and follow gaussian distribution
 norm_cols = ['pause_G', 'pause_C', 'context_G', 'context_C', 'gene_len']
+# params that are pure numerical and follow linear distribution
 lin_cols = ['position', 'start_dist_rel', 'end_dist_rel']
+# params that are categorical
 cat_cols = ['ref_base', 'trans_base']
 
 # for c in df.columns:
@@ -142,13 +153,15 @@ cat_cols = ['ref_base', 'trans_base']
 
 # print(df['pause_status'].unique())
 
-
+# choose all data that are not LC True pause sites
 df = df.loc[df['pause_status'] != 'LC True']
 df.reset_index(drop=True, inplace=True)
 
-
+# create new column for gene-len based on gene_start and gene_end
 df['gene_len'] = df['gene_end'] - df['gene_start']
+# iterate through all samples in the dataset
 for i in range(df.shape[0]):
+    # based on pause state, change string into either 0 or 1
     if df.loc[i, 'pause_status'] in {'HC True'}:
         df.loc[i, 'pause_status'] = 1
     else:
@@ -161,17 +174,24 @@ for i in range(df.shape[0]):
         print('STEP {}/{}'.format(i, df.shape[0]))
 
 
-
+# make all params in cat_cols categorically encoded (one-hot encoding)
 df = pd.get_dummies(df, columns=cat_cols, prefix=cat_cols)
+
+# adjust all linear parameters so they fall into [0,1] rangee
 for col in lin_cols:
     mean, max, min  = df[col].mean(), df[col].max(), df[col].min()
+    # linearize
     df[col] = df[col].apply(lambda x: (x - mean)/(max - min))
+
+# adjust gaussian params by normalizing the column with (z-scores)
 for col in norm_cols:
     mean, std = df[col].mean(), df[col].std()
+    # normalize
     df[col] = df[col].apply(lambda x: (x - mean) / (std))
 
-
+# remove unneccesary columns
 df = df.drop(drop_cols, axis=1)
+# fill all nan or empty cells with 0
 df = df.fillna(0)
 
 for c in df.columns:
@@ -184,6 +204,6 @@ for c in df.columns:
 # plt.show()
 
 
-
+# save data to csv
 df.to_csv('../data/param/param_ds_prcs_selectivelabel_v1.csv')
 

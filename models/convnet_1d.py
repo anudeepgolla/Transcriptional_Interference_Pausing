@@ -12,7 +12,37 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, cohen_kappa_score, confusion_matrix
 import os
 
+
+"""
+
+convent_1d.py : code for LSTM model for training and testing
+
+all models have same steps
+1) create model instance by building it out using keras framework
+2) model.fit(X_train, y_train) - to train model
+3) preds = model.pred(X_test) - run the model on test
+4) get_metrics(preds, y_test) - to see how well it did
+5) optional: do crossvalidation for more surity
+6) optional: do hyperparameter test (commented out in linear svc)
+
+"""
+
+
 run_type = str(sys.argv[1])
+
+# set:
+#   input_dim: depth of input sample
+#   input_len: width of input sample
+#   embedding_dim: what embedding space you want to encode in
+#   X_load_file, y_load_file: file paths for data loading
+#   eps: epochs - number of times to go through data during training
+#   bsz: batch size: how many samples to look at every time you make adjustments to the model
+#   log_file: file path to store output
+#   filters = complexity of convolution alyer
+#   kernel_size = have close together to search (usually fixed),  found by variying until optimal found
+#   hidden_dims = number of nodes in a midle neural layer
+
+
 
 if run_type == 'ordinal':
     input_dim = 4
@@ -111,30 +141,40 @@ def display_metrics(y_test, y_pred):
     accuracy, precision, recall, f1, cohen_kappa))
 
 
-
+# model instance
 model = Sequential()
+# add embedding layer
 model.add(Embedding(input_dim,
                     embedding_dim,
                     input_length=input_len))
 # model.add(Dropout(0.2))
 
+# add one Convolutional layer with 
+#   below hyperparameters 
 model.add(Conv1D(filters,
                  kernel_size,
                  padding='valid',
                  activation='relu',
                  strides=1))
+
+# add pooling layer
 model.add(GlobalMaxPooling1D())
 
+# add regular neural layer with hidden_dims nodes with relu activation
 model.add(Dense(hidden_dims))
 # model.add(Dropout(0.2))
 model.add(Activation('relu'))
 
+# add nerual layer with 1 node for prediction with sigmoid activation
 model.add(Dense(1))
 model.add(Activation('sigmoid'))
 
+# use crossentropy loss, adam optimizer, learn on accuracy
 model.compile(loss='binary_crossentropy',
               optimizer='adam',
               metrics=['accuracy'])
+
+# train
 model.fit(X_train, y_train,
           batch_size=bsz,
           epochs=epochs,

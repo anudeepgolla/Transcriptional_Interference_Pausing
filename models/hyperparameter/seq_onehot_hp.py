@@ -20,15 +20,44 @@ from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_sc
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_selection import SelectKBest, f_regression
 
+"""
+seq_onehot_hp.py : hyperparam tuning and feature scoring for onehot sequence data using random trees classifier
 
+all models have same steps
+1) create model instance by calling sklean module class
+2) model.fit(X_train, y_train) - to train model
+3) preds = model.pred(X_test) - run the model on test
+4) get_metrics(preds, y_test) - to see how well it did
+5) optional: do crossvalidation for more surity
+6) optional: do hyperparameter test (commented out in linear svc)
+
+"""
 
 
 # _, data_path, model_run_name = tuple(sys.argv)
 
+# data load file paths
 # data_path = '../../data/param/param_ds_prcs_selectivelabel_sample_adj_v1.csv'
 X_data_path = '../../data/seq/special/X_data_onehot_flat_no_spike_selective.npy'
 y_data_path = '../../data/seq/special/y_data_onehot_flat_no_spike_selective.npy'
+
+# number of buckets for cross validation 
 hp_cv = 2
+
+
+
+
+# SELECT one set of parameters for hyperparameter tuning
+#       n_estimators: number of trees
+#       criterion: how to know different enough
+#       max_depth: height of the trees
+#       min_samples_split: fraction of total samples need to satisfy a decision split
+#       min_samples_leaf: fraction of total samples need to create a leaf decision
+#       max_features: each decision pathway at most this many samples
+#       verbose: how much print output you want during training
+
+
+
 
 # model_run_name = 'seq_onehot_final_v1_max_depth'
 # parameters_etc = {'n_estimators': [10, 30, 50, 70, 90, 110, 130, 150],
@@ -58,21 +87,22 @@ hp_cv = 2
 #                   'verbose': [2]}
 
 
-model_run_name = 'seq_onehot_final_tuned_reg3'
-parameters_etc = {'n_estimators': [1],
-                  # 'criterion': ['gini', 'entropy'],
-                  'max_depth': [2],
-                  'min_samples_split': [0.001],
-                  'min_samples_leaf': [0.01],
-                  'max_features': ['log2'],
-                  'verbose': [2]}
+# model_run_name = 'seq_onehot_final_tuned_reg3'
+# parameters_etc = {'n_estimators': [1],
+#                   # 'criterion': ['gini', 'entropy'],
+#                   'max_depth': [2],
+#                   'min_samples_split': [0.001],
+#                   'min_samples_leaf': [0.01],
+#                   'max_features': ['log2'],
+#                   'verbose': [2]}
 
 
-
+# create file paths
 log_path = '../../logs/hyperparameter/tuned/{}.log'.format(str(model_run_name))
 model_path = '../../models/model_files/tuned/{}.sav'.format(str(model_run_name))
 sys.stdout = open(log_path, 'w')
 
+# load data
 X_train = np.load(X_data_path)
 y_train = np.load(y_data_path)
 print(X_train.shape)
@@ -126,7 +156,7 @@ print("\nFEATURES SELECTKBEST SCORES\n")
 print(scores)
 
 
-
+# split data
 X_training, X_valid, y_training, y_valid = train_test_split(X_train, y_train, test_size=0.2)
 
 
